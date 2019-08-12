@@ -1,505 +1,505 @@
-3M Company	MMM
-A. O. Smith Corporation	AOS
-Abbott Laboratories	ABT
-AbbVie Inc.	ABBV
-Abiomed, Inc.	ABMD
-Accenture plc	ACN
-Activision Blizzard, Inc.	ATVI
-Adobe Inc.	ADBE
-Advance Auto Parts, Inc.	AAP
-Advanced Micro Devices, Inc.	AMD
-Affiliated Managers Group, Inc.	AMG
-Aflac Incorporated	AFL
-Agilent Technologies, Inc.	A
-Air Products and Chemicals, Inc.	APD
-Akamai Technologies, Inc.	AKAM
-Alaska Air Group, Inc.	ALK
-Albemarle Corporation	ALB
-Alexandria Real Estate Equities, Inc.	ARE
-Alexion Pharmaceuticals, Inc.	ALXN
-Align Technology, Inc.	ALGN
-Allegion plc	ALLE
-Allergan plc	AGN
-Alliance Data Systems Corporation	ADS
-Alliant Energy Corporation	LNT
-Alphabet Inc.	GOOG.L
-Alphabet Inc.	GOOG
-Altria Group, Inc.	MO
-Amazon.com, Inc.	AMZN
-Amcor plc	AMCR
-Ameren Corporation	AEE
-American Airlines Group Inc.	AAL
-American Electric Power Company, Inc.	AEP
-American Express Company	AXP
-American International Group, Inc.	AIG
-American Tower Corporation (REIT)	AMT
-American Water Works Company, Inc.	AWK
-Ameriprise Financial, Inc.	AMP
-AmerisourceBergen Corporation	ABC
-AMETEK, Inc.	AME
-Amgen Inc.	AMGN
-Amphenol Corporation	APH
-Analog Devices, Inc.	ADI
-ANSYS, Inc.	ANSS
-Anthem, Inc.	ANTM
-Aon plc	AON
-Apache Corporation	APA
-Apartment Investment and Management Company	AIV
-Apple Inc.	AAPL
-Applied Materials, Inc.	AMAT
-Aptiv PLC	APTV
-Archer-Daniels-Midland Company	ADM
-Arconic Inc.	ARNC
-Arista Networks, Inc.	ANET
-Arthur J. Gallagher & Co.	AJG
-Assurant, Inc.	AIZ
-AT&T Inc.	T
-Atmos Energy Corporation	ATO
-Autodesk, Inc.	ADSK
-Automatic Data Processing, Inc.	ADP
-AutoZone, Inc.	AZO
-AvalonBay Communities, Inc.	AVB
-Avery Dennison Corporation	AVY
-Baker Hughes, a GE company	BHGE
-Ball Corporation	BLL
-Bank of America Corporation	BAC
-Baxter International Inc.	BAX
-BB&T Corporation	BBT
-Becton, Dickinson and Company	BDX
-Berkshire Hathaway Inc.	BRK.B
-Best Buy Co., Inc.	BBY
-Biogen Inc.	BIIB
-BlackRock, Inc.	BLK
-Booking Holdings Inc.	BKNG
-BorgWarner Inc.	BWA
-Boston Properties, Inc.	BXP
-Boston Scientific Corporation	BSX
-Bristol-Myers Squibb Company	BMY
-Broadcom Inc.	AVGO
-Broadridge Financial Solutions, Inc.	BR
-Brown-Forman Corporation	BF.B
-C.H. Robinson Worldwide, Inc.	CHRW
-Cabot Oil & Gas Corporation	COG
-Cadence Design Systems, Inc.	CDNS
-Campbell Soup Company	CPB
-Capital One Financial Corporation	COF
-Capri Holdings Limited	CPRI
-Cardinal Health, Inc.	CAH
-CarMax, Inc.	KMX
-Carnival Corporation	CCL
-Caterpillar Inc.	CAT
-Cboe Global Markets, Inc.	CBOE
-CBRE Group, Inc.	CBRE
-CBS Corporation	CBS
-Celanese Corporation	CE
-Celgene Corporation	CELG
-Centene Corporation	CNC
-CenterPoint Energy, Inc.	CNP
-CenturyLink, Inc.	CTL
-Cerner Corporation	CERN
-CF Industries Holdings, Inc.	CF
-Charter Communications, Inc.	CHTR
-Chevron Corporation	CVX
-Chipotle Mexican Grill, Inc.	CMG
-Chubb Limited	CB
-Church & Dwight Co., Inc.	CHD
-Cigna Corporation	CI
-Cimarex Energy Co.	XEC
-Cincinnati Financial Corporation	CINF
-Cintas Corporation	CTAS
-Cisco Systems, Inc.	CSCO
-Citigroup Inc.	C
-Citizens Financial Group, Inc.	CFG
-Citrix Systems, Inc.	CTXS
-CME Group Inc.	CME
-CMS Energy Corporation	CMS
-Cognizant Technology Solutions Corporation	CTSH
-Colgate-Palmolive Company	CL
-Comcast Corporation	CMCS.A
-Comerica Incorporated	CMA
-Conagra Brands, Inc.	CAG
-Concho Resources Inc.	CXO
-ConocoPhillips	COP
-Consolidated Edison, Inc.	ED
-Constellation Brands, Inc.	STZ
-Copart, Inc.	CPRT
-Corning Incorporated	GLW
-Corteva, Inc.	CTVA
-Costco Wholesale Corporation	COST
-Coty Inc.	COTY
-Crown Castle International Corp. (REIT)	CCI
-CSX Corporation	CSX
-Cummins Inc.	CMI
-CVS Health Corporation	CVS
-D.R. Horton, Inc.	DHI
-Danaher Corporation	DHR
-Darden Restaurants, Inc.	DRI
-DaVita Inc.	DVA
-Deere & Company	DE
-Delta Air Lines, Inc.	DAL
-DENTSPLY SIRONA Inc.	XRAY
-Devon Energy Corporation	DVN
-Diamondback Energy, Inc.	FANG
-Digital Realty Trust, Inc.	DLR
-Discover Financial Services	DFS
-Discovery, Inc.	DISC.A
-Discovery, Inc.	DISC.K
-DISH Network Corporation	DISH
-Dollar General Corporation	DG
-Dollar Tree, Inc.	DLTR
-Dominion Energy, Inc.	D
-Dover Corporation	DOV
-Dow Inc.	DOW
-DTE Energy Company	DTE
-Duke Energy Corporation	DUK
-Duke Realty Corporation	DRE
-DuPont de Nemours, Inc.	DD
-DXC Technology Company	DXC
-E*TRADE Financial Corporation	ETFC
-Eastman Chemical Company	EMN
-Eaton Corporation plc	ETN
-eBay Inc.	EBAY
-Ecolab Inc.	ECL
-Edison International	EIX
-Edwards Lifesciences Corporation	EW
-Electronic Arts Inc.	EA
-Eli Lilly and Company	LLY
-Emerson Electric Co.	EMR
-Entergy Corporation	ETR
-EOG Resources, Inc.	EOG
-Equifax Inc.	EFX
-Equinix, Inc. (REIT)	EQIX
-Equity Residential	EQR
-Essex Property Trust, Inc.	ESS
-Everest Re Group, Ltd.	RE
-Evergy, Inc.	EVRG
-Eversource Energy	ES
-Exelon Corporation	EXC
-Expedia Group, Inc.	EXPE
-Expeditors International of Washington, Inc.	EXPD
-Extra Space Storage Inc.	EXR
-Exxon Mobil Corporation	XOM
-F5 Networks, Inc.	FFIV
-Facebook, Inc.	FB
-Fastenal Company	FAST
-Federal Realty Investment Trust	FRT
-FedEx Corporation	FDX
-Fidelity National Information Services, Inc.	FIS
-Fifth Third Bancorp	FITB
-First Republic Bank	FRC
-FirstEnergy Corp.	FE
-Fiserv, Inc.	FISV
-FleetCor Technologies, Inc.	FLT
-FLIR Systems, Inc.	FLIR
-Flowserve Corporation	FLS
-FMC Corporation	FMC
-Ford Motor Company	F
-Fortinet, Inc.	FTNT
-Fortive Corporation	FTV
-Fortune Brands Home & Security, Inc.	FBHS
-Fox Corporation	FOX
-Fox Corporation	FOXA
-Franklin Resources, Inc.	BEN
-Freeport-McMoRan Inc.	FCX
-Garmin Ltd.	GRMN
-Gartner, Inc.	IT
-General Dynamics Corporation	GD
-General Electric Company	GE
-General Mills, Inc.	GIS
-General Motors Company	GM
-Genuine Parts Company	GPC
-Gilead Sciences, Inc.	GILD
-Global Payments Inc.	GPN
-Globe Life Inc.	GL
-H&R Block, Inc.	HRB
-Halliburton Company	HAL
-Hanesbrands Inc.	HBI
-Harley-Davidson, Inc.	HOG
-Hasbro, Inc.	HAS
-HCA Healthcare, Inc.	HCA
-HCP, Inc.	HCP
-Helmerich & Payne, Inc.	HP
-Henry Schein, Inc.	HSIC
-Hess Corporation	HES
-Hewlett Packard Enterprise Company	HPE
-Hilton Worldwide Holdings Inc.	HLT
-HollyFrontier Corporation	HFC
-Hologic, Inc.	HOLX
-Honeywell International Inc.	HON
-Hormel Foods Corporation	HRL
-Host Hotels & Resorts, Inc.	HST
-HP Inc.	HPQ
-Humana Inc.	HUM
-Huntington Bancshares Incorporated	HBAN
-Huntington Ingalls Industries, Inc.	HII
-IDEX Corporation	IEX
-IDEXX Laboratories, Inc.	IDXX
-IHS Markit Ltd.	INFO
-Illinois Tool Works Inc.	ITW
-Illumina, Inc.	ILMN
-Incyte Corporation	INCY
-Ingersoll-Rand Plc	IR
-Intel Corporation	INTC
-Intercontinental Exchange, Inc.	ICE
-International Business Machines Corporation	IBM
-International Flavors & Fragrances Inc.	IFF
-International Paper Company	IP
-Intuit Inc.	INTU
-Intuitive Surgical, Inc.	ISRG
-Invesco Ltd.	IVZ
-IPG Photonics Corporation	IPGP
-IQVIA Holdings Inc.	IQV
-Iron Mountain Incorporated	IRM
-J.B. Hunt Transport Services, Inc.	JBHT
-Jack Henry & Associates, Inc.	JKHY
-Jacobs Engineering Group Inc.	JEC
-Jefferies Financial Group Inc.	JEF
-Johnson & Johnson	JNJ
-Johnson Controls International plc	JCI
-JPMorgan Chase & Co.	JPM
-Juniper Networks, Inc.	JNPR
-Kansas City Southern	KSU
-Kellogg Company	K
-KeyCorp	KEY
-Keysight Technologies, Inc.	KEYS
-Kimberly-Clark Corporation	KMB
-Kimco Realty Corporation	KIM
-Kinder Morgan, Inc.	KMI
-KLA Corporation	KLAC
-Kohl's Corporation	KSS
-L Brands, Inc.	LB
-L3Harris Technologies, Inc.	LHX
-Laboratory Corporation of America Holdings	LH
-Lam Research Corporation	LRCX
-Lamb Weston Holdings, Inc.	LW
-Leggett & Platt, Incorporated	LEG
-Leidos Holdings, Inc.	LDOS
-Lennar Corporation	LEN
-Lincoln National Corporation	LNC
-Linde plc	LIN
-LKQ Corporation	LKQ
-Lockheed Martin Corporation	LMT
-Loews Corporation	L
-Lowe's Companies, Inc.	LOW
-LyondellBasell Industries N.V.	LYB
-M&T Bank Corporation	MTB
-Macerich Company	MAC
-Macy's, Inc.	M
-Marathon Oil Corporation	MRO
-Marathon Petroleum Corporation	MPC
-MarketAxess Holdings Inc.	MKTX
-Marriott International, Inc.	MAR
-Marsh & McLennan Companies, Inc.	MMC
-Martin Marietta Materials, Inc.	MLM
-Masco Corporation	MAS
-Mastercard Incorporated	MA
-Maxim Integrated Products, Inc.	MXIM
-McCormick & Company, Incorporated	MKC
-McDonald's Corporation	MCD
-McKesson Corporation	MCK
-Medtronic plc	MDT
-Merck & Co., Inc.	MRK
-MetLife, Inc.	MET
-Mettler-Toledo International Inc.	MTD
-MGM Resorts International	MGM
-Microchip Technology Incorporated	MCHP
-Micron Technology, Inc.	MU
-Microsoft Corporation	MSFT
-Mid-America Apartment Communities, Inc.	MAA
-Mohawk Industries, Inc.	MHK
-Molson Coors Brewing Company	TAP
-Mondelez International, Inc.	MDLZ
-Monster Beverage Corporation	MNST
-Moody's Corporation	MCO
-Morgan Stanley	MS
-Motorola Solutions, Inc.	MSI
-MSCI Inc.	MSCI
-Mylan N.V.	MYL
-Nasdaq, Inc.	NDAQ
-National Oilwell Varco, Inc.	NOV
-Nektar Therapeutics	NKTR
-NetApp, Inc.	NTAP
-Netflix, Inc.	NFLX
-Newell Brands Inc.	NWL
-Newmont Goldcorp Corporation	NEM
-News Corporation	NWSA
-News Corporation	NWS
-NextEra Energy, Inc.	NEE
-Nielsen Holdings plc	NLSN
-NIKE, Inc.	NKE
-NiSource Inc.	NI
-Noble Energy, Inc.	NBL
-Nordstrom, Inc.	JWN
-Norfolk Southern Corporation	NSC
-Northern Trust Corporation	NTRS
-Northrop Grumman Corporation	NOC
-Norwegian Cruise Line Holdings Ltd.	NCLH
-NRG Energy, Inc.	NRG
-Nucor Corporation	NUE
-NVIDIA Corporation	NVDA
-Occidental Petroleum Corporation	OXY
-Omnicom Group Inc.	OMC
-ONEOK, Inc.	OKE
-Oracle Corporation	ORCL
-O'Reilly Automotive, Inc.	ORLY
-PACCAR Inc	PCAR
-Packaging Corporation of America	PKG
-Parker-Hannifin Corporation	PH
-Paychex, Inc.	PAYX
-PayPal Holdings, Inc.	PYPL
-Pentair plc	PNR
-People's United Financial, Inc.	PBCT
-PepsiCo, Inc.	PEP
-PerkinElmer, Inc.	PKI
-Perrigo Company plc	PRGO
-Pfizer Inc.	PFE
-Philip Morris International Inc.	PM
-Phillips 66	PSX
-Pinnacle West Capital Corporation	PNW
-Pioneer Natural Resources Company	PXD
-PPG Industries, Inc.	PPG
-PPL Corporation	PPL
-Principal Financial Group, Inc.	PFG
-Prologis, Inc.	PLD
-Prudential Financial, Inc.	PRU
-Public Service Enterprise Group Incorporated	PEG
-Public Storage	PSA
-PulteGroup, Inc.	PHM
-PVH Corp.	PVH
-Qorvo, Inc.	QRVO
-QUALCOMM Incorporated	QCOM
-Quanta Services, Inc.	PWR
-Quest Diagnostics Incorporated	DGX
-Ralph Lauren Corporation	RL
-Raymond James Financial, Inc.	RJF
-Raytheon Company	RTN
-Realty Income Corporation	O
-Regency Centers Corporation	REG
-Regeneron Pharmaceuticals, Inc.	REGN
-Regions Financial Corporation	RF
-Republic Services, Inc.	RSG
-ResMed Inc.	RMD
-Robert Half International Inc.	RHI
-Rockwell Automation, Inc.	ROK
-Rollins, Inc.	ROL
-Roper Technologies, Inc.	ROP
-Ross Stores, Inc.	ROST
-Royal Caribbean Cruises Ltd.	RCL
-S&P Global Inc.	SPGI
-salesforce.com, inc.	CRM
-SBA Communications Corporation	SBAC
-Schlumberger Limited	SLB
-Seagate Technology plc	STX
-Sealed Air Corporation	SEE
-Sempra Energy	SRE
-Simon Property Group, Inc.	SPG
-Skyworks Solutions, Inc.	SWKS
-SL Green Realty Corp.	SLG
-Snap-on Incorporated	SNA
-Southwest Airlines Co.	LUV
-Stanley Black & Decker, Inc.	SWK
-Starbucks Corporation	SBUX
-State Street Corporation	STT
-Stryker Corporation	SYK
-SunTrust Banks, Inc.	STI
-SVB Financial Group	SIVB
-Symantec Corporation	SYMC
-Synchrony Financial	SYF
-Synopsys, Inc.	SNPS
-Sysco Corporation	SYY
-T. Rowe Price Group, Inc.	TROW
-Take-Two Interactive Software, Inc.	TTWO
-Tapestry, Inc.	TPR
-Target Corporation	TGT
-TE Connectivity Ltd.	TEL
-TechnipFMC plc	FTI
-Teleflex Incorporated	TFX
-Texas Instruments Incorporated	TXN
-Textron Inc.	TXT
-The AES Corporation	AES
-The Allstate Corporation	ALL
-The Bank of New York Mellon Corporation	BK
-The Boeing Company	BA
-The Charles Schwab Corporation	SCHW
-The Clorox Company	CLX
-The Coca-Cola Company	KO
-The Cooper Companies, Inc.	COO
-The Estée Lauder Companies Inc.	EL
-The Gap, Inc.	GPS
-The Goldman Sachs Group, Inc.	GS
-The Hartford Financial Services Group, Inc.	HIG
-The Hershey Company	HSY
-The Home Depot, Inc.	HD
-The Interpublic Group of Companies, Inc.	IPG
-The J. M. Smucker Company	SJM
-The Kraft Heinz Company	KHC
-The Kroger Co.	KR
-The Mosaic Company	MOS
-The PNC Financial Services Group, Inc.	PNC
-The Procter & Gamble Company	PG
-The Progressive Corporation	PGR
-The Sherwin-Williams Company	SHW
-The Southern Company	SO
-The TJX Companies, Inc.	TJX
-The Travelers Companies, Inc.	TRV
-The Walt Disney Company	DIS
-The Western Union Company	WU
-The Williams Companies, Inc.	WMB
-Thermo Fisher Scientific Inc.	TMO
-Tiffany & Co.	TIF
-T-Mobile US, Inc.	TMUS
-Total System Services, Inc.	TSS
-Tractor Supply Company	TSCO
-TransDigm Group Incorporated	TDG
-TripAdvisor, Inc.	TRIP
-Twitter, Inc.	TWTR
-Tyson Foods, Inc.	TSN
-U.S. Bancorp	USB
-UDR, Inc.	UDR
-Ulta Beauty, Inc.	ULTA
-Under Armour, Inc.	UA
-Under Armour, Inc.	UAA
-Union Pacific Corporation	UNP
-United Airlines Holdings, Inc.	UAL
-United Parcel Service, Inc.	UPS
-United Rentals, Inc.	URI
-United Technologies Corporation	UTX
-UnitedHealth Group Incorporated	UNH
-Universal Health Services, Inc.	UHS
-Unum Group	UNM
-V.F. Corporation	VFC
-Valero Energy Corporation	VLO
-Varian Medical Systems, Inc.	VAR
-Ventas, Inc.	VTR
-VeriSign, Inc.	VRSN
-Verisk Analytics, Inc.	VRSK
-Verizon Communications Inc.	VZ
-Vertex Pharmaceuticals Incorporated	VRTX
-Viacom Inc.	VIAB
-Visa Inc.	V
-Vornado Realty Trust	VNO
-Vulcan Materials Company	VMC
-W.W. Grainger, Inc.	GWW
-Wabtec Corporation	WAB
-Walgreens Boots Alliance, Inc.	WBA
-Walmart Inc.	WMT
-Waste Management, Inc.	WM
-Waters Corporation	WAT
-WEC Energy Group, Inc.	WEC
-WellCare Health Plans, Inc.	WCG
-Wells Fargo & Company	WFC
-Welltower Inc.	WELL
-Western Digital Corporation	WDC
-WestRock Company	WRK
-Weyerhaeuser Company	WY
-Whirlpool Corporation	WHR
-Willis Towers Watson Public Limited Company	WLTW
-Wynn Resorts, Limited	WYNN
-Xcel Energy Inc.	XEL
-Xerox Holdings Corporation	XRX
-Xilinx, Inc.	XLNX
-Xylem Inc.	XYL
-YUM! Brands, Inc.	YUM
-Zimmer Biomet Holdings, Inc.	ZBH
-Zions Bancorporation, National Association	ZION
-Zoetis Inc.	ZTS
+3M Company	NYSE:MMM	Industrial Conglomerates
+A. O. Smith Corporation	NYSE:AOS	Building Products
+Abbott Laboratories	NYSE:ABT	Health Care Equipment
+AbbVie Inc.	NYSE:ABBV	Biotechnology
+Abiomed, Inc.	NasdaqGS:ABMD	Health Care Equipment
+Accenture plc	NYSE:ACN	IT Consulting and Other Services
+Activision Blizzard, Inc.	NasdaqGS:ATVI	Interactive Home Entertainment
+Adobe Inc.	NasdaqGS:ADBE	Application Software
+Advance Auto Parts, Inc.	NYSE:AAP	Automotive Retail
+Advanced Micro Devices, Inc.	NasdaqGS:AMD	Semiconductors
+Affiliated Managers Group, Inc.	NYSE:AMG	Asset Management and Custody Banks
+Aflac Incorporated	NYSE:AFL	Life and Health Insurance
+Agilent Technologies, Inc.	NYSE:A	Life Sciences Tools and Services
+Air Products and Chemicals, Inc.	NYSE:APD	Industrial Gases
+Akamai Technologies, Inc.	NasdaqGS:AKAM	Internet Services and Infrastructure
+Alaska Air Group, Inc.	NYSE:ALK	Airlines
+Albemarle Corporation	NYSE:ALB	Specialty Chemicals
+Alexandria Real Estate Equities, Inc.	NYSE:ARE	Office REITs
+Alexion Pharmaceuticals, Inc.	NasdaqGS:ALXN	Biotechnology
+Align Technology, Inc.	NasdaqGS:ALGN	Health Care Supplies
+Allegion plc	NYSE:ALLE	Building Products
+Allergan plc	NYSE:AGN	Pharmaceuticals
+Alliance Data Systems Corporation	NYSE:ADS	Data Processing and Outsourced Services
+Alliant Energy Corporation	NasdaqGS:LNT	Electric Utilities
+Alphabet Inc.	NasdaqGS:GOOG.L	Interactive Media and Services
+Alphabet Inc.	NasdaqGS:GOOG	Interactive Media and Services
+Altria Group, Inc.	NYSE:MO	Tobacco
+Amazon.com, Inc.	NasdaqGS:AMZN	Internet and Direct Marketing Retail
+Amcor plc	NYSE:AMCR	Paper Packaging
+Ameren Corporation	NYSE:AEE	Multi-Utilities
+American Airlines Group Inc.	NasdaqGS:AAL	Airlines
+American Electric Power Company, Inc.	NYSE:AEP	Electric Utilities
+American Express Company	NYSE:AXP	Consumer Finance
+American International Group, Inc.	NYSE:AIG	Multi-line Insurance
+American Tower Corporation (REIT)	NYSE:AMT	Specialized REITs
+American Water Works Company, Inc.	NYSE:AWK	Water Utilities
+Ameriprise Financial, Inc.	NYSE:AMP	Asset Management and Custody Banks
+AmerisourceBergen Corporation	NYSE:ABC	Health Care Distributors
+AMETEK, Inc.	NYSE:AME	Electrical Components and Equipment
+Amgen Inc.	NasdaqGS:AMGN	Biotechnology
+Amphenol Corporation	NYSE:APH	Electronic Components
+Analog Devices, Inc.	NasdaqGS:ADI	Semiconductors
+ANSYS, Inc.	NasdaqGS:ANSS	Application Software
+Anthem, Inc.	NYSE:ANTM	Managed Health Care
+Aon plc	NYSE:AON	Insurance Brokers
+Apache Corporation	NYSE:APA	Oil and Gas Exploration and Production
+Apartment Investment and Management Company	NYSE:AIV	Residential REITs
+Apple Inc.	NasdaqGS:AAPL	Technology Hardware, Storage and Peripherals
+Applied Materials, Inc.	NasdaqGS:AMAT	Semiconductor Equipment
+Aptiv PLC	NYSE:APTV	Auto Parts and Equipment
+Archer-Daniels-Midland Company	NYSE:ADM	Agricultural Products
+Arconic Inc.	NYSE:ARNC	Aerospace and Defense
+Arista Networks, Inc.	NYSE:ANET	Communications Equipment
+Arthur J. Gallagher & Co.	NYSE:AJG	Insurance Brokers
+Assurant, Inc.	NYSE:AIZ	Multi-line Insurance
+AT&T Inc.	NYSE:T	Integrated Telecommunication Services
+Atmos Energy Corporation	NYSE:ATO	Gas Utilities
+Autodesk, Inc.	NasdaqGS:ADSK	Application Software
+Automatic Data Processing, Inc.	NasdaqGS:ADP	Data Processing and Outsourced Services
+AutoZone, Inc.	NYSE:AZO	Automotive Retail
+AvalonBay Communities, Inc.	NYSE:AVB	Residential REITs
+Avery Dennison Corporation	NYSE:AVY	Paper Packaging
+Baker Hughes, a GE company	NYSE:BHGE	Oil and Gas Equipment and Services
+Ball Corporation	NYSE:BLL	Metal and Glass Containers
+Bank of America Corporation	NYSE:BAC	Diversified Banks
+Baxter International Inc.	NYSE:BAX	Health Care Equipment
+BB&T Corporation	NYSE:BBT	Regional Banks
+Becton, Dickinson and Company	NYSE:BDX	Health Care Equipment
+Berkshire Hathaway Inc.	NYSE:BRK.B	Multi-Sector Holdings
+Best Buy Co., Inc.	NYSE:BBY	Computer and Electronics Retail
+Biogen Inc.	NasdaqGS:BIIB	Biotechnology
+BlackRock, Inc.	NYSE:BLK	Asset Management and Custody Banks
+Booking Holdings Inc.	NasdaqGS:BKNG	Internet and Direct Marketing Retail
+BorgWarner Inc.	NYSE:BWA	Auto Parts and Equipment
+Boston Properties, Inc.	NYSE:BXP	Office REITs
+Boston Scientific Corporation	NYSE:BSX	Health Care Equipment
+Bristol-Myers Squibb Company	NYSE:BMY	Pharmaceuticals
+Broadcom Inc.	NasdaqGS:AVGO	Semiconductors
+Broadridge Financial Solutions, Inc.	NYSE:BR	Data Processing and Outsourced Services
+Brown-Forman Corporation	NYSE:BF.B	Distillers and Vintners
+C.H. Robinson Worldwide, Inc.	NasdaqGS:CHRW	Air Freight and Logistics
+Cabot Oil & Gas Corporation	NYSE:COG	Oil and Gas Exploration and Production
+Cadence Design Systems, Inc.	NasdaqGS:CDNS	Application Software
+Campbell Soup Company	NYSE:CPB	Packaged Foods and Meats
+Capital One Financial Corporation	NYSE:COF	Consumer Finance
+Capri Holdings Limited	NYSE:CPRI	Apparel, Accessories and Luxury Goods
+Cardinal Health, Inc.	NYSE:CAH	Health Care Distributors
+CarMax, Inc.	NYSE:KMX	Automotive Retail
+Carnival Corporation	NYSE:CCL	Hotels, Resorts and Cruise Lines
+Caterpillar Inc.	NYSE:CAT	Construction Machinery and Heavy Trucks
+Cboe Global Markets, Inc.	BATS:CBOE	Financial Exchanges and Data
+CBRE Group, Inc.	NYSE:CBRE	Real Estate Services
+CBS Corporation	NYSE:CBS	Broadcasting
+Celanese Corporation	NYSE:CE	Specialty Chemicals
+Celgene Corporation	NasdaqGS:CELG	Biotechnology
+Centene Corporation	NYSE:CNC	Managed Health Care
+CenterPoint Energy, Inc.	NYSE:CNP	Multi-Utilities
+CenturyLink, Inc.	NYSE:CTL	Alternative Carriers
+Cerner Corporation	NasdaqGS:CERN	Health Care Technology
+CF Industries Holdings, Inc.	NYSE:CF	Fertilizers and Agricultural Chemicals
+Charter Communications, Inc.	NasdaqGS:CHTR	Cable and Satellite
+Chevron Corporation	NYSE:CVX	Integrated Oil and Gas
+Chipotle Mexican Grill, Inc.	NYSE:CMG	Restaurants
+Chubb Limited	NYSE:CB	Property and Casualty Insurance
+Church & Dwight Co., Inc.	NYSE:CHD	Household Products
+Cigna Corporation	NYSE:CI	Health Care Services
+Cimarex Energy Co.	NYSE:XEC	Oil and Gas Exploration and Production
+Cincinnati Financial Corporation	NasdaqGS:CINF	Property and Casualty Insurance
+Cintas Corporation	NasdaqGS:CTAS	Diversified Support Services
+Cisco Systems, Inc.	NasdaqGS:CSCO	Communications Equipment
+Citigroup Inc.	NYSE:C	Diversified Banks
+Citizens Financial Group, Inc.	NYSE:CFG	Regional Banks
+Citrix Systems, Inc.	NasdaqGS:CTXS	Application Software
+CME Group Inc.	NasdaqGS:CME	Financial Exchanges and Data
+CMS Energy Corporation	NYSE:CMS	Multi-Utilities
+Cognizant Technology Solutions Corporation	NasdaqGS:CTSH	IT Consulting and Other Services
+Colgate-Palmolive Company	NYSE:CL	Household Products
+Comcast Corporation	NasdaqGS:CMCS.A	Cable and Satellite
+Comerica Incorporated	NYSE:CMA	Regional Banks
+Conagra Brands, Inc.	NYSE:CAG	Packaged Foods and Meats
+Concho Resources Inc.	NYSE:CXO	Oil and Gas Exploration and Production
+ConocoPhillips	NYSE:COP	Oil and Gas Exploration and Production
+Consolidated Edison, Inc.	NYSE:ED	Multi-Utilities
+Constellation Brands, Inc.	NYSE:STZ	Distillers and Vintners
+Copart, Inc.	NasdaqGS:CPRT	Diversified Support Services
+Corning Incorporated	NYSE:GLW	Electronic Components
+Corteva, Inc.	NYSE:CTVA	Fertilizers and Agricultural Chemicals
+Costco Wholesale Corporation	NasdaqGS:COST	Hypermarkets and Super Centers
+Coty Inc.	NYSE:COTY	Personal Products
+Crown Castle International Corp. (REIT)	NYSE:CCI	Specialized REITs
+CSX Corporation	NasdaqGS:CSX	Railroads
+Cummins Inc.	NYSE:CMI	Construction Machinery and Heavy Trucks
+CVS Health Corporation	NYSE:CVS	Health Care Services
+D.R. Horton, Inc.	NYSE:DHI	Homebuilding
+Danaher Corporation	NYSE:DHR	Health Care Equipment
+Darden Restaurants, Inc.	NYSE:DRI	Restaurants
+DaVita Inc.	NYSE:DVA	Health Care Services
+Deere & Company	NYSE:DE	Agricultural and Farm Machinery
+Delta Air Lines, Inc.	NYSE:DAL	Airlines
+DENTSPLY SIRONA Inc.	NasdaqGS:XRAY	Health Care Supplies
+Devon Energy Corporation	NYSE:DVN	Oil and Gas Exploration and Production
+Diamondback Energy, Inc.	NasdaqGS:FANG	Oil and Gas Exploration and Production
+Digital Realty Trust, Inc.	NYSE:DLR	Specialized REITs
+Discover Financial Services	NYSE:DFS	Consumer Finance
+Discovery, Inc.	NasdaqGS:DISC.A	Broadcasting
+Discovery, Inc.	NasdaqGS:DISC.K	Broadcasting
+DISH Network Corporation	NasdaqGS:DISH	Cable and Satellite
+Dollar General Corporation	NYSE:DG	General Merchandise Stores
+Dollar Tree, Inc.	NasdaqGS:DLTR	General Merchandise Stores
+Dominion Energy, Inc.	NYSE:D	Multi-Utilities
+Dover Corporation	NYSE:DOV	Industrial Machinery
+Dow Inc.	NYSE:DOW	Commodity Chemicals
+DTE Energy Company	NYSE:DTE	Multi-Utilities
+Duke Energy Corporation	NYSE:DUK	Electric Utilities
+Duke Realty Corporation	NYSE:DRE	Industrial REITs
+DuPont de Nemours, Inc.	NYSE:DD	Specialty Chemicals
+DXC Technology Company	NYSE:DXC	IT Consulting and Other Services
+E*TRADE Financial Corporation	NasdaqGS:ETFC	Investment Banking and Brokerage
+Eastman Chemical Company	NYSE:EMN	Diversified Chemicals
+Eaton Corporation plc	NYSE:ETN	Electrical Components and Equipment
+eBay Inc.	NasdaqGS:EBAY	Internet and Direct Marketing Retail
+Ecolab Inc.	NYSE:ECL	Specialty Chemicals
+Edison International	NYSE:EIX	Electric Utilities
+Edwards Lifesciences Corporation	NYSE:EW	Health Care Equipment
+Electronic Arts Inc.	NasdaqGS:EA	Interactive Home Entertainment
+Eli Lilly and Company	NYSE:LLY	Pharmaceuticals
+Emerson Electric Co.	NYSE:EMR	Electrical Components and Equipment
+Entergy Corporation	NYSE:ETR	Electric Utilities
+EOG Resources, Inc.	NYSE:EOG	Oil and Gas Exploration and Production
+Equifax Inc.	NYSE:EFX	Research and Consulting Services
+Equinix, Inc. (REIT)	NasdaqGS:EQIX	Specialized REITs
+Equity Residential	NYSE:EQR	Residential REITs
+Essex Property Trust, Inc.	NYSE:ESS	Residential REITs
+Everest Re Group, Ltd.	NYSE:RE	Reinsurance
+Evergy, Inc.	NYSE:EVRG	Electric Utilities
+Eversource Energy	NYSE:ES	Electric Utilities
+Exelon Corporation	NYSE:EXC	Electric Utilities
+Expedia Group, Inc.	NasdaqGS:EXPE	Internet and Direct Marketing Retail
+Expeditors International of Washington, Inc.	NasdaqGS:EXPD	Air Freight and Logistics
+Extra Space Storage Inc.	NYSE:EXR	Specialized REITs
+Exxon Mobil Corporation	NYSE:XOM	Integrated Oil and Gas
+F5 Networks, Inc.	NasdaqGS:FFIV	Communications Equipment
+Facebook, Inc.	NasdaqGS:FB	Interactive Media and Services
+Fastenal Company	NasdaqGS:FAST	Trading Companies and Distributors
+Federal Realty Investment Trust	NYSE:FRT	Retail REITs
+FedEx Corporation	NYSE:FDX	Air Freight and Logistics
+Fidelity National Information Services, Inc.	NYSE:FIS	Data Processing and Outsourced Services
+Fifth Third Bancorp	NasdaqGS:FITB	Regional Banks
+First Republic Bank	NYSE:FRC	Regional Banks
+FirstEnergy Corp.	NYSE:FE	Electric Utilities
+Fiserv, Inc.	NasdaqGS:FISV	Data Processing and Outsourced Services
+FleetCor Technologies, Inc.	NYSE:FLT	Data Processing and Outsourced Services
+FLIR Systems, Inc.	NasdaqGS:FLIR	Electronic Equipment and Instruments
+Flowserve Corporation	NYSE:FLS	Industrial Machinery
+FMC Corporation	NYSE:FMC	Fertilizers and Agricultural Chemicals
+Ford Motor Company	NYSE:F	Automobile Manufacturers
+Fortinet, Inc.	NasdaqGS:FTNT	Systems Software
+Fortive Corporation	NYSE:FTV	Industrial Machinery
+Fortune Brands Home & Security, Inc.	NYSE:FBHS	Building Products
+Fox Corporation	NasdaqGS:FOX	Broadcasting
+Fox Corporation	NasdaqGS:FOXA	Broadcasting
+Franklin Resources, Inc.	NYSE:BEN	Asset Management and Custody Banks
+Freeport-McMoRan Inc.	NYSE:FCX	Copper
+Garmin Ltd.	NasdaqGS:GRMN	Consumer Electronics
+Gartner, Inc.	NYSE:IT	IT Consulting and Other Services
+General Dynamics Corporation	NYSE:GD	Aerospace and Defense
+General Electric Company	NYSE:GE	Industrial Conglomerates
+General Mills, Inc.	NYSE:GIS	Packaged Foods and Meats
+General Motors Company	NYSE:GM	Automobile Manufacturers
+Genuine Parts Company	NYSE:GPC	Distributors
+Gilead Sciences, Inc.	NasdaqGS:GILD	Biotechnology
+Global Payments Inc.	NYSE:GPN	Data Processing and Outsourced Services
+Globe Life Inc.	NYSE:GL	Life and Health Insurance
+H&R Block, Inc.	NYSE:HRB	Specialized Consumer Services
+Halliburton Company	NYSE:HAL	Oil and Gas Equipment and Services
+Hanesbrands Inc.	NYSE:HBI	Apparel, Accessories and Luxury Goods
+Harley-Davidson, Inc.	NYSE:HOG	Motorcycle Manufacturers
+Hasbro, Inc.	NasdaqGS:HAS	Leisure Products
+HCA Healthcare, Inc.	NYSE:HCA	Health Care Facilities
+HCP, Inc.	NYSE:HCP	Health Care REITs
+Helmerich & Payne, Inc.	NYSE:HP	Oil and Gas Drilling
+Henry Schein, Inc.	NasdaqGS:HSIC	Health Care Distributors
+Hess Corporation	NYSE:HES	Oil and Gas Exploration and Production
+Hewlett Packard Enterprise Company	NYSE:HPE	Technology Hardware, Storage and Peripherals
+Hilton Worldwide Holdings Inc.	NYSE:HLT	Hotels, Resorts and Cruise Lines
+HollyFrontier Corporation	NYSE:HFC	Oil and Gas Refining and Marketing
+Hologic, Inc.	NasdaqGS:HOLX	Health Care Equipment
+Honeywell International Inc.	NYSE:HON	Industrial Conglomerates
+Hormel Foods Corporation	NYSE:HRL	Packaged Foods and Meats
+Host Hotels & Resorts, Inc.	NYSE:HST	Hotel and Resort REITs
+HP Inc.	NYSE:HPQ	Technology Hardware, Storage and Peripherals
+Humana Inc.	NYSE:HUM	Managed Health Care
+Huntington Bancshares Incorporated	NasdaqGS:HBAN	Regional Banks
+Huntington Ingalls Industries, Inc.	NYSE:HII	Aerospace and Defense
+IDEX Corporation	NYSE:IEX	Industrial Machinery
+IDEXX Laboratories, Inc.	NasdaqGS:IDXX	Health Care Equipment
+IHS Markit Ltd.	NYSE:INFO	Research and Consulting Services
+Illinois Tool Works Inc.	NYSE:ITW	Industrial Machinery
+Illumina, Inc.	NasdaqGS:ILMN	Life Sciences Tools and Services
+Incyte Corporation	NasdaqGS:INCY	Biotechnology
+Ingersoll-Rand Plc	NYSE:IR	Industrial Machinery
+Intel Corporation	NasdaqGS:INTC	Semiconductors
+Intercontinental Exchange, Inc.	NYSE:ICE	Financial Exchanges and Data
+International Business Machines Corporation	NYSE:IBM	IT Consulting and Other Services
+International Flavors & Fragrances Inc.	NYSE:IFF	Specialty Chemicals
+International Paper Company	NYSE:IP	Paper Packaging
+Intuit Inc.	NasdaqGS:INTU	Application Software
+Intuitive Surgical, Inc.	NasdaqGS:ISRG	Health Care Equipment
+Invesco Ltd.	NYSE:IVZ	Asset Management and Custody Banks
+IPG Photonics Corporation	NasdaqGS:IPGP	Electronic Manufacturing Services
+IQVIA Holdings Inc.	NYSE:IQV	Life Sciences Tools and Services
+Iron Mountain Incorporated	NYSE:IRM	Specialized REITs
+J.B. Hunt Transport Services, Inc.	NasdaqGS:JBHT	Trucking
+Jack Henry & Associates, Inc.	NasdaqGS:JKHY	Data Processing and Outsourced Services
+Jacobs Engineering Group Inc.	NYSE:JEC	Construction and Engineering
+Jefferies Financial Group Inc.	NYSE:JEF	Multi-Sector Holdings
+Johnson & Johnson	NYSE:JNJ	Pharmaceuticals
+Johnson Controls International plc	NYSE:JCI	Building Products
+JPMorgan Chase & Co.	NYSE:JPM	Diversified Banks
+Juniper Networks, Inc.	NYSE:JNPR	Communications Equipment
+Kansas City Southern	NYSE:KSU	Railroads
+Kellogg Company	NYSE:K	Packaged Foods and Meats
+KeyCorp	NYSE:KEY	Regional Banks
+Keysight Technologies, Inc.	NYSE:KEYS	Electronic Equipment and Instruments
+Kimberly-Clark Corporation	NYSE:KMB	Household Products
+Kimco Realty Corporation	NYSE:KIM	Retail REITs
+Kinder Morgan, Inc.	NYSE:KMI	Oil and Gas Storage and Transportation
+KLA Corporation	NasdaqGS:KLAC	Semiconductor Equipment
+Kohl's Corporation	NYSE:KSS	Department Stores
+L Brands, Inc.	NYSE:LB	Apparel Retail
+L3Harris Technologies, Inc.	NYSE:LHX	Aerospace and Defense
+Laboratory Corporation of America Holdings	NYSE:LH	Health Care Services
+Lam Research Corporation	NasdaqGS:LRCX	Semiconductor Equipment
+Lamb Weston Holdings, Inc.	NYSE:LW	Packaged Foods and Meats
+Leggett & Platt, Incorporated	NYSE:LEG	Home Furnishings
+Leidos Holdings, Inc.	NYSE:LDOS	IT Consulting and Other Services
+Lennar Corporation	NYSE:LEN	Homebuilding
+Lincoln National Corporation	NYSE:LNC	Life and Health Insurance
+Linde plc	NYSE:LIN	Industrial Gases
+LKQ Corporation	NasdaqGS:LKQ	Distributors
+Lockheed Martin Corporation	NYSE:LMT	Aerospace and Defense
+Loews Corporation	NYSE:L	Property and Casualty Insurance
+Lowe's Companies, Inc.	NYSE:LOW	Home Improvement Retail
+LyondellBasell Industries N.V.	NYSE:LYB	Commodity Chemicals
+M&T Bank Corporation	NYSE:MTB	Regional Banks
+Macerich Company	NYSE:MAC	Retail REITs
+Macy's, Inc.	NYSE:M	Department Stores
+Marathon Oil Corporation	NYSE:MRO	Oil and Gas Exploration and Production
+Marathon Petroleum Corporation	NYSE:MPC	Oil and Gas Refining and Marketing
+MarketAxess Holdings Inc.	NasdaqGS:MKTX	Financial Exchanges and Data
+Marriott International, Inc.	NasdaqGS:MAR	Hotels, Resorts and Cruise Lines
+Marsh & McLennan Companies, Inc.	NYSE:MMC	Insurance Brokers
+Martin Marietta Materials, Inc.	NYSE:MLM	Construction Materials
+Masco Corporation	NYSE:MAS	Building Products
+Mastercard Incorporated	NYSE:MA	Data Processing and Outsourced Services
+Maxim Integrated Products, Inc.	NasdaqGS:MXIM	Semiconductors
+McCormick & Company, Incorporated	NYSE:MKC	Packaged Foods and Meats
+McDonald's Corporation	NYSE:MCD	Restaurants
+McKesson Corporation	NYSE:MCK	Health Care Distributors
+Medtronic plc	NYSE:MDT	Health Care Equipment
+Merck & Co., Inc.	NYSE:MRK	Pharmaceuticals
+MetLife, Inc.	NYSE:MET	Life and Health Insurance
+Mettler-Toledo International Inc.	NYSE:MTD	Life Sciences Tools and Services
+MGM Resorts International	NYSE:MGM	Casinos and Gaming
+Microchip Technology Incorporated	NasdaqGS:MCHP	Semiconductors
+Micron Technology, Inc.	NasdaqGS:MU	Semiconductors
+Microsoft Corporation	NasdaqGS:MSFT	Systems Software
+Mid-America Apartment Communities, Inc.	NYSE:MAA	Residential REITs
+Mohawk Industries, Inc.	NYSE:MHK	Home Furnishings
+Molson Coors Brewing Company	NYSE:TAP	Brewers
+Mondelez International, Inc.	NasdaqGS:MDLZ	Packaged Foods and Meats
+Monster Beverage Corporation	NasdaqGS:MNST	Soft Drinks
+Moody's Corporation	NYSE:MCO	Financial Exchanges and Data
+Morgan Stanley	NYSE:MS	Investment Banking and Brokerage
+Motorola Solutions, Inc.	NYSE:MSI	Communications Equipment
+MSCI Inc.	NYSE:MSCI	Financial Exchanges and Data
+Mylan N.V.	NasdaqGS:MYL	Pharmaceuticals
+Nasdaq, Inc.	NasdaqGS:NDAQ	Financial Exchanges and Data
+National Oilwell Varco, Inc.	NYSE:NOV	Oil and Gas Equipment and Services
+Nektar Therapeutics	NasdaqGS:NKTR	Pharmaceuticals
+NetApp, Inc.	NasdaqGS:NTAP	Technology Hardware, Storage and Peripherals
+Netflix, Inc.	NasdaqGS:NFLX	Movies and Entertainment
+Newell Brands Inc.	NasdaqGS:NWL	Housewares and Specialties
+Newmont Goldcorp Corporation	NYSE:NEM	Gold
+News Corporation	NasdaqGS:NWSA	Publishing
+News Corporation	NasdaqGS:NWS	Publishing
+NextEra Energy, Inc.	NYSE:NEE	Electric Utilities
+Nielsen Holdings plc	NYSE:NLSN	Research and Consulting Services
+NIKE, Inc.	NYSE:NKE	Footwear
+NiSource Inc.	NYSE:NI	Multi-Utilities
+Noble Energy, Inc.	NYSE:NBL	Oil and Gas Exploration and Production
+Nordstrom, Inc.	NYSE:JWN	Department Stores
+Norfolk Southern Corporation	NYSE:NSC	Railroads
+Northern Trust Corporation	NasdaqGS:NTRS	Asset Management and Custody Banks
+Northrop Grumman Corporation	NYSE:NOC	Aerospace and Defense
+Norwegian Cruise Line Holdings Ltd.	NYSE:NCLH	Hotels, Resorts and Cruise Lines
+NRG Energy, Inc.	NYSE:NRG	Independent Power Producers and Energy Traders
+Nucor Corporation	NYSE:NUE	Steel
+NVIDIA Corporation	NasdaqGS:NVDA	Semiconductors
+Occidental Petroleum Corporation	NYSE:OXY	Integrated Oil and Gas
+Omnicom Group Inc.	NYSE:OMC	Advertising
+ONEOK, Inc.	NYSE:OKE	Oil and Gas Storage and Transportation
+Oracle Corporation	NYSE:ORCL	Systems Software
+O'Reilly Automotive, Inc.	NasdaqGS:ORLY	Automotive Retail
+PACCAR Inc	NasdaqGS:PCAR	Construction Machinery and Heavy Trucks
+Packaging Corporation of America	NYSE:PKG	Paper Packaging
+Parker-Hannifin Corporation	NYSE:PH	Industrial Machinery
+Paychex, Inc.	NasdaqGS:PAYX	Data Processing and Outsourced Services
+PayPal Holdings, Inc.	NasdaqGS:PYPL	Data Processing and Outsourced Services
+Pentair plc	NYSE:PNR	Industrial Machinery
+People's United Financial, Inc.	NasdaqGS:PBCT	Regional Banks
+PepsiCo, Inc.	NasdaqGS:PEP	Soft Drinks
+PerkinElmer, Inc.	NYSE:PKI	Life Sciences Tools and Services
+Perrigo Company plc	NYSE:PRGO	Pharmaceuticals
+Pfizer Inc.	NYSE:PFE	Pharmaceuticals
+Philip Morris International Inc.	NYSE:PM	Tobacco
+Phillips 66	NYSE:PSX	Oil and Gas Refining and Marketing
+Pinnacle West Capital Corporation	NYSE:PNW	Electric Utilities
+Pioneer Natural Resources Company	NYSE:PXD	Oil and Gas Exploration and Production
+PPG Industries, Inc.	NYSE:PPG	Specialty Chemicals
+PPL Corporation	NYSE:PPL	Electric Utilities
+Principal Financial Group, Inc.	NasdaqGS:PFG	Life and Health Insurance
+Prologis, Inc.	NYSE:PLD	Industrial REITs
+Prudential Financial, Inc.	NYSE:PRU	Life and Health Insurance
+Public Service Enterprise Group Incorporated	NYSE:PEG	Multi-Utilities
+Public Storage	NYSE:PSA	Specialized REITs
+PulteGroup, Inc.	NYSE:PHM	Homebuilding
+PVH Corp.	NYSE:PVH	Apparel, Accessories and Luxury Goods
+Qorvo, Inc.	NasdaqGS:QRVO	Semiconductors
+QUALCOMM Incorporated	NasdaqGS:QCOM	Semiconductors
+Quanta Services, Inc.	NYSE:PWR	Construction and Engineering
+Quest Diagnostics Incorporated	NYSE:DGX	Health Care Services
+Ralph Lauren Corporation	NYSE:RL	Apparel, Accessories and Luxury Goods
+Raymond James Financial, Inc.	NYSE:RJF	Investment Banking and Brokerage
+Raytheon Company	NYSE:RTN	Aerospace and Defense
+Realty Income Corporation	NYSE:O	Retail REITs
+Regency Centers Corporation	NasdaqGS:REG	Retail REITs
+Regeneron Pharmaceuticals, Inc.	NasdaqGS:REGN	Biotechnology
+Regions Financial Corporation	NYSE:RF	Regional Banks
+Republic Services, Inc.	NYSE:RSG	Environmental and Facilities Services
+ResMed Inc.	NYSE:RMD	Health Care Equipment
+Robert Half International Inc.	NYSE:RHI	Human Resource and Employment Services
+Rockwell Automation, Inc.	NYSE:ROK	Electrical Components and Equipment
+Rollins, Inc.	NYSE:ROL	Environmental and Facilities Services
+Roper Technologies, Inc.	NYSE:ROP	Industrial Conglomerates
+Ross Stores, Inc.	NasdaqGS:ROST	Apparel Retail
+Royal Caribbean Cruises Ltd.	NYSE:RCL	Hotels, Resorts and Cruise Lines
+S&P Global Inc.	NYSE:SPGI	Financial Exchanges and Data
+salesforce.com, inc.	NYSE:CRM	Application Software
+SBA Communications Corporation	NasdaqGS:SBAC	Specialized REITs
+Schlumberger Limited	NYSE:SLB	Oil and Gas Equipment and Services
+Seagate Technology plc	NasdaqGS:STX	Technology Hardware, Storage and Peripherals
+Sealed Air Corporation	NYSE:SEE	Paper Packaging
+Sempra Energy	NYSE:SRE	Multi-Utilities
+Simon Property Group, Inc.	NYSE:SPG	Retail REITs
+Skyworks Solutions, Inc.	NasdaqGS:SWKS	Semiconductors
+SL Green Realty Corp.	NYSE:SLG	Office REITs
+Snap-on Incorporated	NYSE:SNA	Industrial Machinery
+Southwest Airlines Co.	NYSE:LUV	Airlines
+Stanley Black & Decker, Inc.	NYSE:SWK	Industrial Machinery
+Starbucks Corporation	NasdaqGS:SBUX	Restaurants
+State Street Corporation	NYSE:STT	Asset Management and Custody Banks
+Stryker Corporation	NYSE:SYK	Health Care Equipment
+SunTrust Banks, Inc.	NYSE:STI	Regional Banks
+SVB Financial Group	NasdaqGS:SIVB	Regional Banks
+Symantec Corporation	NasdaqGS:SYMC	Systems Software
+Synchrony Financial	NYSE:SYF	Consumer Finance
+Synopsys, Inc.	NasdaqGS:SNPS	Application Software
+Sysco Corporation	NYSE:SYY	Food Distributors
+T. Rowe Price Group, Inc.	NasdaqGS:TROW	Asset Management and Custody Banks
+Take-Two Interactive Software, Inc.	NasdaqGS:TTWO	Interactive Home Entertainment
+Tapestry, Inc.	NYSE:TPR	Apparel, Accessories and Luxury Goods
+Target Corporation	NYSE:TGT	General Merchandise Stores
+TE Connectivity Ltd.	NYSE:TEL	Electronic Manufacturing Services
+TechnipFMC plc	NYSE:FTI	Oil and Gas Equipment and Services
+Teleflex Incorporated	NYSE:TFX	Health Care Equipment
+Texas Instruments Incorporated	NasdaqGS:TXN	Semiconductors
+Textron Inc.	NYSE:TXT	Aerospace and Defense
+The AES Corporation	NYSE:AES	Independent Power Producers and Energy Traders
+The Allstate Corporation	NYSE:ALL	Property and Casualty Insurance
+The Bank of New York Mellon Corporation	NYSE:BK	Asset Management and Custody Banks
+The Boeing Company	NYSE:BA	Aerospace and Defense
+The Charles Schwab Corporation	NYSE:SCHW	Investment Banking and Brokerage
+The Clorox Company	NYSE:CLX	Household Products
+The Coca-Cola Company	NYSE:KO	Soft Drinks
+The Cooper Companies, Inc.	NYSE:COO	Health Care Supplies
+The Estée Lauder Companies Inc.	NYSE:EL	Personal Products
+The Gap, Inc.	NYSE:GPS	Apparel Retail
+The Goldman Sachs Group, Inc.	NYSE:GS	Investment Banking and Brokerage
+The Hartford Financial Services Group, Inc.	NYSE:HIG	Multi-line Insurance
+The Hershey Company	NYSE:HSY	Packaged Foods and Meats
+The Home Depot, Inc.	NYSE:HD	Home Improvement Retail
+The Interpublic Group of Companies, Inc.	NYSE:IPG	Advertising
+The J. M. Smucker Company	NYSE:SJM	Packaged Foods and Meats
+The Kraft Heinz Company	NasdaqGS:KHC	Packaged Foods and Meats
+The Kroger Co.	NYSE:KR	Food Retail
+The Mosaic Company	NYSE:MOS	Fertilizers and Agricultural Chemicals
+The PNC Financial Services Group, Inc.	NYSE:PNC	Regional Banks
+The Procter & Gamble Company	NYSE:PG	Household Products
+The Progressive Corporation	NYSE:PGR	Property and Casualty Insurance
+The Sherwin-Williams Company	NYSE:SHW	Specialty Chemicals
+The Southern Company	NYSE:SO	Electric Utilities
+The TJX Companies, Inc.	NYSE:TJX	Apparel Retail
+The Travelers Companies, Inc.	NYSE:TRV	Property and Casualty Insurance
+The Walt Disney Company	NYSE:DIS	Movies and Entertainment
+The Western Union Company	NYSE:WU	Data Processing and Outsourced Services
+The Williams Companies, Inc.	NYSE:WMB	Oil and Gas Storage and Transportation
+Thermo Fisher Scientific Inc.	NYSE:TMO	Life Sciences Tools and Services
+Tiffany & Co.	NYSE:TIF	Specialty Stores
+T-Mobile US, Inc.	NasdaqGS:TMUS	Wireless Telecommunication Services
+Total System Services, Inc.	NYSE:TSS	Data Processing and Outsourced Services
+Tractor Supply Company	NasdaqGS:TSCO	Specialty Stores
+TransDigm Group Incorporated	NYSE:TDG	Aerospace and Defense
+TripAdvisor, Inc.	NasdaqGS:TRIP	Interactive Media and Services
+Twitter, Inc.	NYSE:TWTR	Interactive Media and Services
+Tyson Foods, Inc.	NYSE:TSN	Packaged Foods and Meats
+U.S. Bancorp	NYSE:USB	Diversified Banks
+UDR, Inc.	NYSE:UDR	Residential REITs
+Ulta Beauty, Inc.	NasdaqGS:ULTA	Specialty Stores
+Under Armour, Inc.	NYSE:UA	Apparel, Accessories and Luxury Goods
+Under Armour, Inc.	NYSE:UAA	Apparel, Accessories and Luxury Goods
+Union Pacific Corporation	NYSE:UNP	Railroads
+United Airlines Holdings, Inc.	NasdaqGS:UAL	Airlines
+United Parcel Service, Inc.	NYSE:UPS	Air Freight and Logistics
+United Rentals, Inc.	NYSE:URI	Trading Companies and Distributors
+United Technologies Corporation	NYSE:UTX	Aerospace and Defense
+UnitedHealth Group Incorporated	NYSE:UNH	Managed Health Care
+Universal Health Services, Inc.	NYSE:UHS	Health Care Facilities
+Unum Group	NYSE:UNM	Life and Health Insurance
+V.F. Corporation	NYSE:VFC	Apparel, Accessories and Luxury Goods
+Valero Energy Corporation	NYSE:VLO	Oil and Gas Refining and Marketing
+Varian Medical Systems, Inc.	NYSE:VAR	Health Care Equipment
+Ventas, Inc.	NYSE:VTR	Health Care REITs
+VeriSign, Inc.	NasdaqGS:VRSN	Internet Services and Infrastructure
+Verisk Analytics, Inc.	NasdaqGS:VRSK	Research and Consulting Services
+Verizon Communications Inc.	NYSE:VZ	Integrated Telecommunication Services
+Vertex Pharmaceuticals Incorporated	NasdaqGS:VRTX	Biotechnology
+Viacom Inc.	NasdaqGS:VIAB	Movies and Entertainment
+Visa Inc.	NYSE:V	Data Processing and Outsourced Services
+Vornado Realty Trust	NYSE:VNO	Office REITs
+Vulcan Materials Company	NYSE:VMC	Construction Materials
+W.W. Grainger, Inc.	NYSE:GWW	Trading Companies and Distributors
+Wabtec Corporation	NYSE:WAB	Construction Machinery and Heavy Trucks
+Walgreens Boots Alliance, Inc.	NasdaqGS:WBA	Drug Retail
+Walmart Inc.	NYSE:WMT	Hypermarkets and Super Centers
+Waste Management, Inc.	NYSE:WM	Environmental and Facilities Services
+Waters Corporation	NYSE:WAT	Life Sciences Tools and Services
+WEC Energy Group, Inc.	NYSE:WEC	Multi-Utilities
+WellCare Health Plans, Inc.	NYSE:WCG	Managed Health Care
+Wells Fargo & Company	NYSE:WFC	Diversified Banks
+Welltower Inc.	NYSE:WELL	Health Care REITs
+Western Digital Corporation	NasdaqGS:WDC	Technology Hardware, Storage and Peripherals
+WestRock Company	NYSE:WRK	Paper Packaging
+Weyerhaeuser Company	NYSE:WY	Specialized REITs
+Whirlpool Corporation	NYSE:WHR	Household Appliances
+Willis Towers Watson Public Limited Company	NasdaqGS:WLTW	Insurance Brokers
+Wynn Resorts, Limited	NasdaqGS:WYNN	Casinos and Gaming
+Xcel Energy Inc.	NasdaqGS:XEL	Electric Utilities
+Xerox Holdings Corporation	NYSE:XRX	Technology Hardware, Storage and Peripherals
+Xilinx, Inc.	NasdaqGS:XLNX	Semiconductors
+Xylem Inc.	NYSE:XYL	Industrial Machinery
+YUM! Brands, Inc.	NYSE:YUM	Restaurants
+Zimmer Biomet Holdings, Inc.	NYSE:ZBH	Health Care Equipment
+Zions Bancorporation, National Association	NasdaqGS:ZION	Regional Banks
+Zoetis Inc.	NYSE:ZTS	Pharmaceuticals

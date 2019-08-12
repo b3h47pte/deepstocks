@@ -1,31 +1,30 @@
-Microsoft Corporation	MSFT
-Apple Inc.	AAPL
-Visa Inc.	V
-JPMorgan Chase & Co.	JPM
-Johnson & Johnson	JNJ
-Walmart Inc.	WMT
-Exxon Mobil Corporation	XOM
-The Procter & Gamble Company	PG
-The Walt Disney Company	DIS
-UnitedHealth Group Incorporated	UNH
-Chevron Corporation	CVX
-The Home Depot, Inc.	HD
-Verizon Communications Inc.	VZ
-The Coca-Cola Company	KO
-Cisco Systems, Inc.	CSCO
-Merck & Co., Inc.	MRK
-Intel Corporation	INTC
-Pfizer Inc.	PFE
-The Boeing Company	BA
-McDonald's Corporation	MCD
-NIKE, Inc.	NKE
-International Business Machines Corporation	IBM
-United Technologies Corporation	UTX
-American Express Company	AXP
-3M Company	MMM
-The Goldman Sachs Group, Inc.	GS
-Caterpillar Inc.	CAT
-DuPont de Nemours, Inc.	DD
-Walgreens Boots Alliance, Inc.	WBA
-The Travelers Companies, Inc.	TRV
-
+Microsoft Corporation	NasdaqGS:MSFT	Systems Software
+Apple Inc.	NasdaqGS:AAPL	Technology Hardware, Storage and Peripherals
+Visa Inc.	NYSE:V	Data Processing and Outsourced Services
+JPMorgan Chase & Co.	NYSE:JPM	Diversified Banks
+Johnson & Johnson	NYSE:JNJ	Pharmaceuticals
+Walmart Inc.	NYSE:WMT	Hypermarkets and Super Centers
+Exxon Mobil Corporation	NYSE:XOM	Integrated Oil and Gas
+The Procter & Gamble Company	NYSE:PG	Household Products
+The Walt Disney Company	NYSE:DIS	Movies and Entertainment
+UnitedHealth Group Incorporated	NYSE:UNH	Managed Health Care
+Chevron Corporation	NYSE:CVX	Integrated Oil and Gas
+The Home Depot, Inc.	NYSE:HD	Home Improvement Retail
+Verizon Communications Inc.	NYSE:VZ	Integrated Telecommunication Services
+The Coca-Cola Company	NYSE:KO	Soft Drinks
+Cisco Systems, Inc.	NasdaqGS:CSCO	Communications Equipment
+Merck & Co., Inc.	NYSE:MRK	Pharmaceuticals
+Intel Corporation	NasdaqGS:INTC	Semiconductors
+Pfizer Inc.	NYSE:PFE	Pharmaceuticals
+The Boeing Company	NYSE:BA	Aerospace and Defense
+McDonald's Corporation	NYSE:MCD	Restaurants
+NIKE, Inc.	NYSE:NKE	Footwear
+International Business Machines Corporation	NYSE:IBM	IT Consulting and Other Services
+United Technologies Corporation	NYSE:UTX	Aerospace and Defense
+American Express Company	NYSE:AXP	Consumer Finance
+3M Company	NYSE:MMM	Industrial Conglomerates
+The Goldman Sachs Group, Inc.	NYSE:GS	Investment Banking and Brokerage
+Caterpillar Inc.	NYSE:CAT	Construction Machinery and Heavy Trucks
+DuPont de Nemours, Inc.	NYSE:DD	Specialty Chemicals
+Walgreens Boots Alliance, Inc.	NasdaqGS:WBA	Drug Retail
+The Travelers Companies, Inc.	NYSE:TRV	Property and Casualty Insurance
