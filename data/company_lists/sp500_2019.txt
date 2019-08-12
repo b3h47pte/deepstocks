@@ -1,0 +1,505 @@
+3M Company	MMM
+A. O. Smith Corporation	AOS
+Abbott Laboratories	ABT
+AbbVie Inc.	ABBV
+Abiomed, Inc.	ABMD
+Accenture plc	ACN
+Activision Blizzard, Inc.	ATVI
+Adobe Inc.	ADBE
+Advance Auto Parts, Inc.	AAP
+Advanced Micro Devices, Inc.	AMD
+Affiliated Managers Group, Inc.	AMG
+Aflac Incorporated	AFL
+Agilent Technologies, Inc.	A
+Air Products and Chemicals, Inc.	APD
+Akamai Technologies, Inc.	AKAM
+Alaska Air Group, Inc.	ALK
+Albemarle Corporation	ALB
+Alexandria Real Estate Equities, Inc.	ARE
+Alexion Pharmaceuticals, Inc.	ALXN
+Align Technology, Inc.	ALGN
+Allegion plc	ALLE
+Allergan plc	AGN
+Alliance Data Systems Corporation	ADS
+Alliant Energy Corporation	LNT
+Alphabet Inc.	GOOG.L
+Alphabet Inc.	GOOG
+Altria Group, Inc.	MO
+Amazon.com, Inc.	AMZN
+Amcor plc	AMCR
+Ameren Corporation	AEE
+American Airlines Group Inc.	AAL
+American Electric Power Company, Inc.	AEP
+American Express Company	AXP
+American International Group, Inc.	AIG
+American Tower Corporation (REIT)	AMT
+American Water Works Company, Inc.	AWK
+Ameriprise Financial, Inc.	AMP
+AmerisourceBergen Corporation	ABC
+AMETEK, Inc.	AME
+Amgen Inc.	AMGN
+Amphenol Corporation	APH
+Analog Devices, Inc.	ADI
+ANSYS, Inc.	ANSS
+Anthem, Inc.	ANTM
+Aon plc	AON
+Apache Corporation	APA
+Apartment Investment and Management Company	AIV
+Apple Inc.	AAPL
+Applied Materials, Inc.	AMAT
+Aptiv PLC	APTV
+Archer-Daniels-Midland Company	ADM
+Arconic Inc.	ARNC
+Arista Networks, Inc.	ANET
+Arthur J. Gallagher & Co.	AJG
+Assurant, Inc.	AIZ
+AT&T Inc.	T
+Atmos Energy Corporation	ATO
+Autodesk, Inc.	ADSK
+Automatic Data Processing, Inc.	ADP
+AutoZone, Inc.	AZO
+AvalonBay Communities, Inc.	AVB
+Avery Dennison Corporation	AVY
+Baker Hughes, a GE company	BHGE
+Ball Corporation	BLL
+Bank of America Corporation	BAC
+Baxter International Inc.	BAX
+BB&T Corporation	BBT
+Becton, Dickinson and Company	BDX
+Berkshire Hathaway Inc.	BRK.B
+Best Buy Co., Inc.	BBY
+Biogen Inc.	BIIB
+BlackRock, Inc.	BLK
+Booking Holdings Inc.	BKNG
+BorgWarner Inc.	BWA
+Boston Properties, Inc.	BXP
+Boston Scientific Corporation	BSX
+Bristol-Myers Squibb Company	BMY
+Broadcom Inc.	AVGO
+Broadridge Financial Solutions, Inc.	BR
+Brown-Forman Corporation	BF.B
+C.H. Robinson Worldwide, Inc.	CHRW
+Cabot Oil & Gas Corporation	COG
+Cadence Design Systems, Inc.	CDNS
+Campbell Soup Company	CPB
+Capital One Financial Corporation	COF
+Capri Holdings Limited	CPRI
+Cardinal Health, Inc.	CAH
+CarMax, Inc.	KMX
+Carnival Corporation	CCL
+Caterpillar Inc.	CAT
+Cboe Global Markets, Inc.	CBOE
+CBRE Group, Inc.	CBRE
+CBS Corporation	CBS
+Celanese Corporation	CE
+Celgene Corporation	CELG
+Centene Corporation	CNC
+CenterPoint Energy, Inc.	CNP
+CenturyLink, Inc.	CTL
+Cerner Corporation	CERN
+CF Industries Holdings, Inc.	CF
+Charter Communications, Inc.	CHTR
+Chevron Corporation	CVX
+Chipotle Mexican Grill, Inc.	CMG
+Chubb Limited	CB
+Church & Dwight Co., Inc.	CHD
+Cigna Corporation	CI
+Cimarex Energy Co.	XEC
+Cincinnati Financial Corporation	CINF
+Cintas Corporation	CTAS
+Cisco Systems, Inc.	CSCO
+Citigroup Inc.	C
+Citizens Financial Group, Inc.	CFG
+Citrix Systems, Inc.	CTXS
+CME Group Inc.	CME
+CMS Energy Corporation	CMS
+Cognizant Technology Solutions Corporation	CTSH
+Colgate-Palmolive Company	CL
+Comcast Corporation	CMCS.A
+Comerica Incorporated	CMA
+Conagra Brands, Inc.	CAG
+Concho Resources Inc.	CXO
+ConocoPhillips	COP
+Consolidated Edison, Inc.	ED
+Constellation Brands, Inc.	STZ
+Copart, Inc.	CPRT
+Corning Incorporated	GLW
+Corteva, Inc.	CTVA
+Costco Wholesale Corporation	COST
+Coty Inc.	COTY
+Crown Castle International Corp. (REIT)	CCI
+CSX Corporation	CSX
+Cummins Inc.	CMI
+CVS Health Corporation	CVS
+D.R. Horton, Inc.	DHI
+Danaher Corporation	DHR
+Darden Restaurants, Inc.	DRI
+DaVita Inc.	DVA
+Deere & Company	DE
+Delta Air Lines, Inc.	DAL
+DENTSPLY SIRONA Inc.	XRAY
+Devon Energy Corporation	DVN
+Diamondback Energy, Inc.	FANG
+Digital Realty Trust, Inc.	DLR
+Discover Financial Services	DFS
+Discovery, Inc.	DISC.A
+Discovery, Inc.	DISC.K
+DISH Network Corporation	DISH
+Dollar General Corporation	DG
+Dollar Tree, Inc.	DLTR
+Dominion Energy, Inc.	D
+Dover Corporation	DOV
+Dow Inc.	DOW
+DTE Energy Company	DTE
+Duke Energy Corporation	DUK
+Duke Realty Corporation	DRE
+DuPont de Nemours, Inc.	DD
+DXC Technology Company	DXC
+E*TRADE Financial Corporation	ETFC
+Eastman Chemical Company	EMN
+Eaton Corporation plc	ETN
+eBay Inc.	EBAY
+Ecolab Inc.	ECL
+Edison International	EIX
+Edwards Lifesciences Corporation	EW
+Electronic Arts Inc.	EA
+Eli Lilly and Company	LLY
+Emerson Electric Co.	EMR
+Entergy Corporation	ETR
+EOG Resources, Inc.	EOG
+Equifax Inc.	EFX
+Equinix, Inc. (REIT)	EQIX
+Equity Residential	EQR
+Essex Property Trust, Inc.	ESS
+Everest Re Group, Ltd.	RE
+Evergy, Inc.	EVRG
+Eversource Energy	ES
+Exelon Corporation	EXC
+Expedia Group, Inc.	EXPE
+Expeditors International of Washington, Inc.	EXPD
+Extra Space Storage Inc.	EXR
+Exxon Mobil Corporation	XOM
+F5 Networks, Inc.	FFIV
+Facebook, Inc.	FB
+Fastenal Company	FAST
+Federal Realty Investment Trust	FRT
+FedEx Corporation	FDX
+Fidelity National Information Services, Inc.	FIS
+Fifth Third Bancorp	FITB
+First Republic Bank	FRC
+FirstEnergy Corp.	FE
+Fiserv, Inc.	FISV
+FleetCor Technologies, Inc.	FLT
+FLIR Systems, Inc.	FLIR
+Flowserve Corporation	FLS
+FMC Corporation	FMC
+Ford Motor Company	F
+Fortinet, Inc.	FTNT
+Fortive Corporation	FTV
+Fortune Brands Home & Security, Inc.	FBHS
+Fox Corporation	FOX
+Fox Corporation	FOXA
+Franklin Resources, Inc.	BEN
+Freeport-McMoRan Inc.	FCX
+Garmin Ltd.	GRMN
+Gartner, Inc.	IT
+General Dynamics Corporation	GD
+General Electric Company	GE
+General Mills, Inc.	GIS
+General Motors Company	GM
+Genuine Parts Company	GPC
+Gilead Sciences, Inc.	GILD
+Global Payments Inc.	GPN
+Globe Life Inc.	GL
+H&R Block, Inc.	HRB
+Halliburton Company	HAL
+Hanesbrands Inc.	HBI
+Harley-Davidson, Inc.	HOG
+Hasbro, Inc.	HAS
+HCA Healthcare, Inc.	HCA
+HCP, Inc.	HCP
+Helmerich & Payne, Inc.	HP
+Henry Schein, Inc.	HSIC
+Hess Corporation	HES
+Hewlett Packard Enterprise Company	HPE
+Hilton Worldwide Holdings Inc.	HLT
+HollyFrontier Corporation	HFC
+Hologic, Inc.	HOLX
+Honeywell International Inc.	HON
+Hormel Foods Corporation	HRL
+Host Hotels & Resorts, Inc.	HST
+HP Inc.	HPQ
+Humana Inc.	HUM
+Huntington Bancshares Incorporated	HBAN
+Huntington Ingalls Industries, Inc.	HII
+IDEX Corporation	IEX
+IDEXX Laboratories, Inc.	IDXX
+IHS Markit Ltd.	INFO
+Illinois Tool Works Inc.	ITW
+Illumina, Inc.	ILMN
+Incyte Corporation	INCY
+Ingersoll-Rand Plc	IR
+Intel Corporation	INTC
+Intercontinental Exchange, Inc.	ICE
+International Business Machines Corporation	IBM
+International Flavors & Fragrances Inc.	IFF
+International Paper Company	IP
+Intuit Inc.	INTU
+Intuitive Surgical, Inc.	ISRG
+Invesco Ltd.	IVZ
+IPG Photonics Corporation	IPGP
+IQVIA Holdings Inc.	IQV
+Iron Mountain Incorporated	IRM
+J.B. Hunt Transport Services, Inc.	JBHT
+Jack Henry & Associates, Inc.	JKHY
+Jacobs Engineering Group Inc.	JEC
+Jefferies Financial Group Inc.	JEF
+Johnson & Johnson	JNJ
+Johnson Controls International plc	JCI
+JPMorgan Chase & Co.	JPM
+Juniper Networks, Inc.	JNPR
+Kansas City Southern	KSU
+Kellogg Company	K
+KeyCorp	KEY
+Keysight Technologies, Inc.	KEYS
+Kimberly-Clark Corporation	KMB
+Kimco Realty Corporation	KIM
+Kinder Morgan, Inc.	KMI
+KLA Corporation	KLAC
+Kohl's Corporation	KSS
+L Brands, Inc.	LB
+L3Harris Technologies, Inc.	LHX
+Laboratory Corporation of America Holdings	LH
+Lam Research Corporation	LRCX
+Lamb Weston Holdings, Inc.	LW
+Leggett & Platt, Incorporated	LEG
+Leidos Holdings, Inc.	LDOS
+Lennar Corporation	LEN
+Lincoln National Corporation	LNC
+Linde plc	LIN
+LKQ Corporation	LKQ
+Lockheed Martin Corporation	LMT
+Loews Corporation	L
+Lowe's Companies, Inc.	LOW
+LyondellBasell Industries N.V.	LYB
+M&T Bank Corporation	MTB
+Macerich Company	MAC
+Macy's, Inc.	M
+Marathon Oil Corporation	MRO
+Marathon Petroleum Corporation	MPC
+MarketAxess Holdings Inc.	MKTX
+Marriott International, Inc.	MAR
+Marsh & McLennan Companies, Inc.	MMC
+Martin Marietta Materials, Inc.	MLM
+Masco Corporation	MAS
+Mastercard Incorporated	MA
+Maxim Integrated Products, Inc.	MXIM
+McCormick & Company, Incorporated	MKC
+McDonald's Corporation	MCD
+McKesson Corporation	MCK
+Medtronic plc	MDT
+Merck & Co., Inc.	MRK
+MetLife, Inc.	MET
+Mettler-Toledo International Inc.	MTD
+MGM Resorts International	MGM
+Microchip Technology Incorporated	MCHP
+Micron Technology, Inc.	MU
+Microsoft Corporation	MSFT
+Mid-America Apartment Communities, Inc.	MAA
+Mohawk Industries, Inc.	MHK
+Molson Coors Brewing Company	TAP
+Mondelez International, Inc.	MDLZ
+Monster Beverage Corporation	MNST
+Moody's Corporation	MCO
+Morgan Stanley	MS
+Motorola Solutions, Inc.	MSI
+MSCI Inc.	MSCI
+Mylan N.V.	MYL
+Nasdaq, Inc.	NDAQ
+National Oilwell Varco, Inc.	NOV
+Nektar Therapeutics	NKTR
+NetApp, Inc.	NTAP
+Netflix, Inc.	NFLX
+Newell Brands Inc.	NWL
+Newmont Goldcorp Corporation	NEM
+News Corporation	NWSA
+News Corporation	NWS
+NextEra Energy, Inc.	NEE
+Nielsen Holdings plc	NLSN
+NIKE, Inc.	NKE
+NiSource Inc.	NI
+Noble Energy, Inc.	NBL
+Nordstrom, Inc.	JWN
+Norfolk Southern Corporation	NSC
+Northern Trust Corporation	NTRS
+Northrop Grumman Corporation	NOC
+Norwegian Cruise Line Holdings Ltd.	NCLH
+NRG Energy, Inc.	NRG
+Nucor Corporation	NUE
+NVIDIA Corporation	NVDA
+Occidental Petroleum Corporation	OXY
+Omnicom Group Inc.	OMC
+ONEOK, Inc.	OKE
+Oracle Corporation	ORCL
+O'Reilly Automotive, Inc.	ORLY
+PACCAR Inc	PCAR
+Packaging Corporation of America	PKG
+Parker-Hannifin Corporation	PH
+Paychex, Inc.	PAYX
+PayPal Holdings, Inc.	PYPL
+Pentair plc	PNR
+People's United Financial, Inc.	PBCT
+PepsiCo, Inc.	PEP
+PerkinElmer, Inc.	PKI
+Perrigo Company plc	PRGO
+Pfizer Inc.	PFE
+Philip Morris International Inc.	PM
+Phillips 66	PSX
+Pinnacle West Capital Corporation	PNW
+Pioneer Natural Resources Company	PXD
+PPG Industries, Inc.	PPG
+PPL Corporation	PPL
+Principal Financial Group, Inc.	PFG
+Prologis, Inc.	PLD
+Prudential Financial, Inc.	PRU
+Public Service Enterprise Group Incorporated	PEG
+Public Storage	PSA
+PulteGroup, Inc.	PHM
+PVH Corp.	PVH
+Qorvo, Inc.	QRVO
+QUALCOMM Incorporated	QCOM
+Quanta Services, Inc.	PWR
+Quest Diagnostics Incorporated	DGX
+Ralph Lauren Corporation	RL
+Raymond James Financial, Inc.	RJF
+Raytheon Company	RTN
+Realty Income Corporation	O
+Regency Centers Corporation	REG
+Regeneron Pharmaceuticals, Inc.	REGN
+Regions Financial Corporation	RF
+Republic Services, Inc.	RSG
+ResMed Inc.	RMD
+Robert Half International Inc.	RHI
+Rockwell Automation, Inc.	ROK
+Rollins, Inc.	ROL
+Roper Technologies, Inc.	ROP
+Ross Stores, Inc.	ROST
+Royal Caribbean Cruises Ltd.	RCL
+S&P Global Inc.	SPGI
+salesforce.com, inc.	CRM
+SBA Communications Corporation	SBAC
+Schlumberger Limited	SLB
+Seagate Technology plc	STX
+Sealed Air Corporation	SEE
+Sempra Energy	SRE
+Simon Property Group, Inc.	SPG
+Skyworks Solutions, Inc.	SWKS
+SL Green Realty Corp.	SLG
+Snap-on Incorporated	SNA
+Southwest Airlines Co.	LUV
+Stanley Black & Decker, Inc.	SWK
+Starbucks Corporation	SBUX
+State Street Corporation	STT
+Stryker Corporation	SYK
+SunTrust Banks, Inc.	STI
+SVB Financial Group	SIVB
+Symantec Corporation	SYMC
+Synchrony Financial	SYF
+Synopsys, Inc.	SNPS
+Sysco Corporation	SYY
+T. Rowe Price Group, Inc.	TROW
+Take-Two Interactive Software, Inc.	TTWO
+Tapestry, Inc.	TPR
+Target Corporation	TGT
+TE Connectivity Ltd.	TEL
+TechnipFMC plc	FTI
+Teleflex Incorporated	TFX
+Texas Instruments Incorporated	TXN
+Textron Inc.	TXT
+The AES Corporation	AES
+The Allstate Corporation	ALL
+The Bank of New York Mellon Corporation	BK
+The Boeing Company	BA
+The Charles Schwab Corporation	SCHW
+The Clorox Company	CLX
+The Coca-Cola Company	KO
+The Cooper Companies, Inc.	COO
+The Estée Lauder Companies Inc.	EL
+The Gap, Inc.	GPS
+The Goldman Sachs Group, Inc.	GS
+The Hartford Financial Services Group, Inc.	HIG
+The Hershey Company	HSY
+The Home Depot, Inc.	HD
+The Interpublic Group of Companies, Inc.	IPG
+The J. M. Smucker Company	SJM
+The Kraft Heinz Company	KHC
+The Kroger Co.	KR
+The Mosaic Company	MOS
+The PNC Financial Services Group, Inc.	PNC
+The Procter & Gamble Company	PG
+The Progressive Corporation	PGR
+The Sherwin-Williams Company	SHW
+The Southern Company	SO
+The TJX Companies, Inc.	TJX
+The Travelers Companies, Inc.	TRV
+The Walt Disney Company	DIS
+The Western Union Company	WU
+The Williams Companies, Inc.	WMB
+Thermo Fisher Scientific Inc.	TMO
+Tiffany & Co.	TIF
+T-Mobile US, Inc.	TMUS
+Total System Services, Inc.	TSS
+Tractor Supply Company	TSCO
+TransDigm Group Incorporated	TDG
+TripAdvisor, Inc.	TRIP
+Twitter, Inc.	TWTR
+Tyson Foods, Inc.	TSN
+U.S. Bancorp	USB
+UDR, Inc.	UDR
+Ulta Beauty, Inc.	ULTA
+Under Armour, Inc.	UA
+Under Armour, Inc.	UAA
+Union Pacific Corporation	UNP
+United Airlines Holdings, Inc.	UAL
+United Parcel Service, Inc.	UPS
+United Rentals, Inc.	URI
+United Technologies Corporation	UTX
+UnitedHealth Group Incorporated	UNH
+Universal Health Services, Inc.	UHS
+Unum Group	UNM
+V.F. Corporation	VFC
+Valero Energy Corporation	VLO
+Varian Medical Systems, Inc.	VAR
+Ventas, Inc.	VTR
+VeriSign, Inc.	VRSN
+Verisk Analytics, Inc.	VRSK
+Verizon Communications Inc.	VZ
+Vertex Pharmaceuticals Incorporated	VRTX
+Viacom Inc.	VIAB
+Visa Inc.	V
+Vornado Realty Trust	VNO
+Vulcan Materials Company	VMC
+W.W. Grainger, Inc.	GWW
+Wabtec Corporation	WAB
+Walgreens Boots Alliance, Inc.	WBA
+Walmart Inc.	WMT
+Waste Management, Inc.	WM
+Waters Corporation	WAT
+WEC Energy Group, Inc.	WEC
+WellCare Health Plans, Inc.	WCG
+Wells Fargo & Company	WFC
+Welltower Inc.	WELL
+Western Digital Corporation	WDC
+WestRock Company	WRK
+Weyerhaeuser Company	WY
+Whirlpool Corporation	WHR
+Willis Towers Watson Public Limited Company	WLTW
+Wynn Resorts, Limited	WYNN
+Xcel Energy Inc.	XEL
+Xerox Holdings Corporation	XRX
+Xilinx, Inc.	XLNX
+Xylem Inc.	XYL
+YUM! Brands, Inc.	YUM
+Zimmer Biomet Holdings, Inc.	ZBH
+Zions Bancorporation, National Association	ZION
+Zoetis Inc.	ZTS

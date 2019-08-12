@@ -1,0 +1,31 @@
+Microsoft Corporation	MSFT
+Apple Inc.	AAPL
+Visa Inc.	V
+JPMorgan Chase & Co.	JPM
+Johnson & Johnson	JNJ
+Walmart Inc.	WMT
+Exxon Mobil Corporation	XOM
+The Procter & Gamble Company	PG
+The Walt Disney Company	DIS
+UnitedHealth Group Incorporated	UNH
+Chevron Corporation	CVX
+The Home Depot, Inc.	HD
+Verizon Communications Inc.	VZ
+The Coca-Cola Company	KO
+Cisco Systems, Inc.	CSCO
+Merck & Co., Inc.	MRK
+Intel Corporation	INTC
+Pfizer Inc.	PFE
+The Boeing Company	BA
+McDonald's Corporation	MCD
+NIKE, Inc.	NKE
+International Business Machines Corporation	IBM
+United Technologies Corporation	UTX
+American Express Company	AXP
+3M Company	MMM
+The Goldman Sachs Group, Inc.	GS
+Caterpillar Inc.	CAT
+DuPont de Nemours, Inc.	DD
+Walgreens Boots Alliance, Inc.	WBA
+The Travelers Companies, Inc.	TRV
+
