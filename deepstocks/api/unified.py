@@ -1,6 +1,7 @@
 #
 # Unified format for results coming from various APIs.
 #
+import datetime
 from enum import Enum
 
 class Exchanges(Enum):
@@ -21,3 +22,12 @@ class CompanyExData(object):
         self.symbol = symbol
         self.exchange = exchange
         self.exType = exType
+
+class EquityPriceData(object):
+    def __init__(self, dateTime, price, volume):
+        assert isinstance(dateTime, datetime.datetime)
+        assert isinstance(price, float)
+        assert isinstance(volume, int)
+        self.dateTime = dateTime
+        self.price = price
+        self.volume = volume

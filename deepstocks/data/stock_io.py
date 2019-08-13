@@ -16,5 +16,6 @@ def getSymbolFromCompanyName(companyName):
         return None
     return filteredSymbols[0].symbol
 
-def getHistoricalStockPrice(symbol, startDate=None, endDate=None):
-    pass
+def getHistoricalStockPrice(symbol):
+    from deepstocks.api.alpha_vantage import avGetHistoricalStockPrice
+    return avGetHistoricalStockPrice(symbol)

@@ -48,7 +48,6 @@ def yahooGetSymbolsFromCompanyName(companyName):
             break
 
     queryCompanyName = ' '.join(splitSpacesName).strip()
-    print(queryCompanyName, '^^^^^', companyName)
     params = {
         'query': queryCompanyName,
         'region': 'US',
@@ -56,7 +55,6 @@ def yahooGetSymbolsFromCompanyName(companyName):
     }
     apiUrl = 'http://autoc.finance.yahoo.com/autoc'
     r = requests.get(apiUrl, params=params)
-    print(r.url)
     data = r.json()
 
     def exchDispToExchanges(d):

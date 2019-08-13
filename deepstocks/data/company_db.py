@@ -13,3 +13,4 @@ class Company(Base):
     symbol = Column(String, nullable=False, unique=True)
     industryId = Column(Integer, ForeignKey('industry.id'))
     industry = relationship('Industry', back_populates='companies')
+    equity = relationship('Equity', back_populates='company')
