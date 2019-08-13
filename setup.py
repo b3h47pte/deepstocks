@@ -7,5 +7,7 @@ setup(
         'requests',
         'SQLAlchemy',
         'appdirs',
+        'torch',
+        'torchvision',
     ],
 )

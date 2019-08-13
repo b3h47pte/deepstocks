@@ -42,7 +42,7 @@ else:
 # Grab historical stock data from API
 # Skip if company already has data in it.
 for c in companies:
-    print('STOCK DATA FOR {0}'.format(c.name))
+    print('STOCK DATA FOR {0} - {1}'.format(c.name, c.symbol))
     if c.equity:
         print('Skipping {0}'.format(c.name))
         continue

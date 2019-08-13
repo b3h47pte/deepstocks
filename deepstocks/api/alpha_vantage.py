@@ -34,7 +34,7 @@ def avGetHistoricalStockPrice(symbol):
 
     params = {
         'function': 'TIME_SERIES_DAILY',
-        'symbol': symbol,
+        'symbol': symbol.replace('.',''),
         'outputsize': 'full',
         'datatype': 'json',
         'apikey': config.getConfigValue(config.kAlphaVantageConfigKey),

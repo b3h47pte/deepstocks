@@ -7,3 +7,4 @@ python -m pip install setuptools
 python -m pip install requests
 python -m pip install SQLAlchemy
 python -m pip install appdirs
+python -m pip install torch torchvision
