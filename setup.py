@@ -9,5 +9,7 @@ setup(
         'appdirs',
         'torch',
         'torchvision',
+        'opencv-python',
+        'matplotlib',
     ],
 )

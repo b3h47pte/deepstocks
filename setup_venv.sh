@@ -8,3 +8,5 @@ python -m pip install requests
 python -m pip install SQLAlchemy
 python -m pip install appdirs
 python -m pip install torch torchvision
+python -m pip install opencv-python
+python -m pip install matplotlib

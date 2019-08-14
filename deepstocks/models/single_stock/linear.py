@@ -1,3 +1,4 @@
+from deepstocks.data import Equity, Company
 import math
 import torch
 
@@ -21,24 +22,44 @@ class LinearSingleStockConfig(object):
 
 class LinearSingleStockDataset(torch.utils.data.Dataset):
     def __init__(self, session, symbol, config):
-        from deepstocks.data import Equity, Company
 
         self._symbol = symbol
         self._config = config
-        self._baseQuery = session.query(Equity.price).join(Equity.company).filter_by(symbol=self._symbol).order_by(Equity.dateTime)
+        self._baseQuery = session.query(Equity).join(Equity.company).filter_by(symbol=self._symbol)
+        self._ascQuery = self._baseQuery.order_by(Equity.dateTime.asc())
+        self._descQuery = self._baseQuery.order_by(Equity.dateTime.desc())
 
         # Determine how many pieces of data we have after
         # accounting for the fact that we need N days of
         # pre-data and M days of post-data. ASSUME DATA
         # IS CONTIGUOUS IN DAYS.
         self._totalDataCount = int(self._baseQuery.count())
-        self._totalSampleCount = int(self._totalDataCount / (self._config.inputN + self._config.outputM))
+        self._totalSampleCount = self._totalDataCount - self._config.inputN - self._config.outputM
+
+        self._ascCached = self._ascQuery.all()
 
     def __getitem__(self, idx):
-        return self._baseQuery.slice(idx, idx + 1).one()
+        # Input goes from idx to idx + inputN
+        # Output goes from idx + inputN to indx + inputN + outputM
+        inputStock = self._ascCached[idx:idx + self._config.inputN]
+        targetStock = self._ascCached[idx + self._config.inputN:idx + self._config.inputN + self._config.outputM]
+
+        inputTensor = torch.FloatTensor([x.price for x in inputStock])
+        targetTensor = torch.FloatTensor([x.price for x in targetStock])
+        return inputTensor, targetTensor
 
     def __len__(self):
         return self._totalSampleCount
+
+    def getInputForDate(self, date):
+        stocks = list(reversed(self._descQuery.filter(Equity.dateTime < date).limit(self._config.inputN).all()))
+        assert(len(stocks) == self._config.inputN)
+        return torch.FloatTensor([s.price for s in stocks]), [s.dateTime for s in stocks]
+
+    def getTargetForDate(self, date):
+        stocks = self._ascQuery.filter(Equity.dateTime >= date).limit(self._config.outputM).all()
+        assert(len(stocks) == self._config.outputM)
+        return torch.FloatTensor([s.price for s in stocks]), [s.dateTime for s in stocks]
 
 class LinearSingleStock(torch.nn.Module):
     ConfigType = LinearSingleStockConfig
