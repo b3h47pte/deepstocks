@@ -18,6 +18,11 @@ class LinearSingleStockConfig(object):
 
         with open(fname, 'r') as f:
             data = json.load(f)
+
+        return cls.loadFromJson(data)
+
+    @classmethod
+    def loadFromJson(cls, data):
         return cls(int(data['inputN']), int(data['outputM']))
 
 class LinearSingleStockDataset(torch.utils.data.Dataset):
