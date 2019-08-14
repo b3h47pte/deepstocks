@@ -11,5 +11,6 @@ setup(
         'torchvision',
         'opencv-python',
         'matplotlib',
+        'alembic',
     ],
 )

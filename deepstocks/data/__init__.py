@@ -7,3 +7,5 @@ from .industry_db import *
 
 from .stock_io import *
 from .stock_db import *
+
+from .technical_indicator_db import *

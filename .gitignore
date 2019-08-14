@@ -105,3 +105,4 @@ venv.bak/
 pvenv
 .ycm_extra_conf.py
 *.db
+*.bak

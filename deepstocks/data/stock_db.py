@@ -14,3 +14,6 @@ class Equity(Base):
     company = relationship('Company', back_populates='equity')
     price = Column(Float, nullable=False)
     volume = Column(Integer, nullable=False)
+
+    # Technical indicators
+    rsi = relationship('RSITechIndicator', back_populates='equity')
