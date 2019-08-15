@@ -1,3 +1,6 @@
+import './search.js';
 import Vue from 'vue';
 
-document.getElementById('poop').innerHTML = 'HELLOOOOOOOOOOOOOO';
+new Vue({
+    el: '#app'
+});

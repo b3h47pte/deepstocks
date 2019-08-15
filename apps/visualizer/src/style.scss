@@ -3,23 +3,76 @@
 $fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+$text-color: #FFFFFF;
+
+$input-color: $text-color;
+$input-background-color: rgba(255, 255, 255, 0.11);
+$input-border-color: rgba(255, 255, 255, 0.11);
+$input-focus-color: rgba(255, 255, 255, 0.11);
+$input-focus-border-color: rgba(255, 255, 255, 0.11);
+$input-hover-color: rgba(255, 255, 255, 0.11);
+$input-hover-border-color: rgba(255, 255, 255, 0.11);
+$input-shadow: none;
+$input-icon-color: #BB86FC;
+$input-icon-active-color: #BB86FC;
+
+$title-color: $text-color;
+$subtitle-color: $text-color;
+
 @import "../node_modules/bulma/bulma.sass";
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background-color: #121212;
+    color: $text-color;
+}
 
 body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    min-height: 100vh;
 }
 
-body > section {
+body .main {
     flex: 1;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 body > footer {
-    background-color: #a12444 !important;
+    padding: 0px !important;
+    margin: 5px !important;
 }
 
-.fas {
-    font-family: "Font Awesome 5 Free" !important;
+.columns {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.column {
+    padding: 0;
+    margin: 0px 5px 0px 5px;
+}
+
+.section {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px 3px 3px 3px !important;
+}
+
+.primary-overlay {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.secondary-overlay {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+input {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    line-height: 3 !important;
 }

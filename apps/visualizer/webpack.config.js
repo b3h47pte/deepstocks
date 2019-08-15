@@ -42,5 +42,10 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: 'style.css'
         })
-    ]
+    ],
+    resolve: {
+        alias: {
+            'vue$': 'vue/dist/vue.esm.js'
+        }
+    }
 }
