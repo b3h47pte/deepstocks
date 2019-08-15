@@ -1,0 +1,28 @@
+{
+  "name": "visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1",
+    "bulma": "^0.7.5",
+    "css-loader": "^3.2.0",
+    "electron": "^6.0.2",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "url-loader": "^2.1.0",
+    "vue": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {}
+}

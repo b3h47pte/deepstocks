@@ -43,16 +43,14 @@ else:
 # Skip if company already has data in it.
 for c in companies:
     print('STOCK DATA FOR {0} - {1}'.format(c.name, c.symbol))
-    if c.equity:
-        print('Skipping {0}'.format(c.name))
-        continue
-
-    stockPrices = deepstocks.data.getHistoricalStockPrice(c.symbol)
-    for sDatum in stockPrices:
-        newStock = deepstocks.data.Equity(
-            dateTime=sDatum.dateTime,
-            company=c,
-            price=sDatum.price,
-            volume=sDatum.volume)
-        session.add(newStock)
-    session.commit()
+    if not c.equity:
+        print ('...Retrieving stock prices.')
+        stockPrices = deepstocks.data.getHistoricalStockPrice(c.symbol)
+        for sDatum in stockPrices:
+            newStock = deepstocks.data.Equity(
+                dateTime=sDatum.dateTime,
+                company=c,
+                price=sDatum.price,
+                volume=sDatum.volume)
+            session.add(newStock)
+        session.commit()

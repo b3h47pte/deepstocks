@@ -106,3 +106,4 @@ pvenv
 .ycm_extra_conf.py
 *.db
 *.bak
+node_modules/

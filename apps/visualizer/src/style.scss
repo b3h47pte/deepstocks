@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/bulma/bulma.sass";
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body > section {
+    flex: 1;
+}
+
+body > footer {
+    background-color: #a12444 !important;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
