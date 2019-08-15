@@ -1,10 +1,24 @@
 "use strict";
 
 const {app, BrowserWindow, Menu} = require('electron');
+const {exec} = require('child_process');
+const program = require('commander');
+
+program
+    .option('--db <database>');
+
+program.parse(process.argv);
 
 let win;
 
 function start() {
+    // Start API server python backened.
+    exec('apiServer.py --db ' + program.db, (err, stdout, stderr) => {
+        console.log(err);
+        console.log(stdout);
+        console.log(stderr);
+    });
+
     win = new BrowserWindow({
         width: 1280,
         height: 720,

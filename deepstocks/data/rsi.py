@@ -1,7 +1,7 @@
 #
 # Utilities for computing RSI.
 #
-from collection import deque
+from collections import deque
 import math
 
 # For now, compute the RSI for every datapoint in the company.

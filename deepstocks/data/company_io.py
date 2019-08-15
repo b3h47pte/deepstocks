@@ -35,3 +35,20 @@ def readCompanyList(fname):
             symbols.append(s)
             industries.append(i)
     return companies, symbols, industries
+
+# Searches for the company name(s)/symbol(s) that best matches the input
+# Returns a list of dicts with the form {name: 'NAME', symbol: 'SYMBOL'}.
+def findClosestNameSymbolMatch(session, inp, limit=10):
+    from .company_db import Company
+    from sqlalchemy import or_
+
+    match = '%{0}%'.format(inp)
+    results = session.query(Company) \
+        .filter(
+            or_(
+                Company.name.ilike(match),
+                Company.symbol.ilike(match))) \
+        .limit(limit) \
+        .all()
+
+    return [{'name': c.name, 'symbol': c.symbol} for c in results]
