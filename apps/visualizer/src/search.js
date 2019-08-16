@@ -90,7 +90,7 @@ Vue.component('stock-search', {
                        v-on:mouseover="selectedOption = index"
                        v-on:click="selectStock(ele.symbol, ele.name)">
                         <b>{{ ele.name }}</b> ({{ele.symbol}})
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>`

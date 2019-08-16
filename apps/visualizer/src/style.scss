@@ -4,7 +4,8 @@ $fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 
-$text-color: #FFFFFF;
+$text-color: rgba(255, 255, 255, 0.87);
+$secondary-text-color: rgba(255, 255, 255, 0.60);
 
 $input-color: $text-color;
 $input-background-color: rgba(255, 255, 255, 0.11);
@@ -25,6 +26,8 @@ $dropdown-content-shadow: 0 2px 3px rgba(80, 80, 80, 0.9), 0 0 0 1px rgba(80, 80
 $dropdown-item-color: $text-color;
 $dropdown-item-hover-color: $dropdown-item-color;
 $dropdown-item-hover-background-color: $dropdown-content-background-color;
+
+$card-header-color: $text-color;
 
 @import "../node_modules/bulma/bulma.sass";
 
@@ -77,6 +80,14 @@ body > footer {
     background-color: rgba(255, 255, 255, 0.08);
 }
 
+.tertiary-overlay {
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.quaternary-overlay {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
 input {
     padding-top: 1px !important;
     padding-bottom: 1px !important;
@@ -86,4 +97,29 @@ input {
 .on-item-hover {
     background-color: #BB86FC !important;
     color: #000000 !important;
+}
+
+.secondary-bg {
+    @extend .primary-overlay;
+}
+
+.secondary-bg-alt {
+    @extend .secondary-overlay;
+}
+
+.stock-control-card {
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+    padding: 2px 2px 2px 2px;
+    border-radius: 3px;
+}
+
+.secondary-text {
+    color: $secondary-text-color;
+    font-size: small;
+}
+
+.card-header > a {
+    color: $text-color !important;
 }

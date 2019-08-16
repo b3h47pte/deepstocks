@@ -1,5 +1,3 @@
-"use strict";
-
 const {app, BrowserWindow, Menu} = require('electron');
 const {exec} = require('child_process');
 const program = require('commander');
@@ -37,3 +35,4 @@ app.on('ready', start);
 app.on('window-all-closed', () => {
     app.quit();
 });
+

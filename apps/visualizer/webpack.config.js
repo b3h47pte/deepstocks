@@ -8,11 +8,18 @@ module.exports = {
         index: ['./src/index.js', './src/style.scss']
     },
     output: {
-        filename: 'index.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist')
     },
     module: {
         rules: [
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                query: {
+                    presets: ['@babel/preset-env']
+                }
+            },
             {
                 test: /\.scss$/,
                 use: [
