@@ -24,10 +24,16 @@ class CompanyExData(object):
         self.exType = exType
 
 class EquityPriceData(object):
-    def __init__(self, dateTime, price, volume):
+    def __init__(self, dateTime, volume, openPrice, closePrice, highPrice, lowPrice):
         assert isinstance(dateTime, datetime.datetime)
-        assert isinstance(price, float)
         assert isinstance(volume, int)
+        assert isinstance(openPrice, float)
+        assert isinstance(closePrice, float)
+        assert isinstance(highPrice, float)
+        assert isinstance(lowPrice, float)
         self.dateTime = dateTime
-        self.price = price
         self.volume = volume
+        self.openPrice = openPrice
+        self.closePrice = closePrice
+        self.highPrice = highPrice
+        self.lowPrice = lowPrice

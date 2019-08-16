@@ -29,6 +29,10 @@ $dropdown-item-hover-background-color: $dropdown-content-background-color;
 
 $card-header-color: $text-color;
 
+$button-color: #000000;
+$button-background-color: #BB86FC;
+$button-border-color: $button-background-color;
+
 @import "../node_modules/bulma/bulma.sass";
 
 html, body {
@@ -122,4 +126,21 @@ input {
 
 .card-header > a {
     color: $text-color !important;
+}
+
+.primary-text {
+    color: $text-color !important;
+}
+
+.primary-text-control {
+    @extend .primary-text;
+    margin: 2px 2px 2px 2px;
+}
+
+.primary-display-control-wrapper {
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

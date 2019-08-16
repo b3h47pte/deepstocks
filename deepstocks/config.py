@@ -8,9 +8,11 @@ import json
 
 # CONFIG KEYS
 kAlphaVantageConfigKey = 'ALPHA_VANTAGE_KEY'
+kIEXCloudKey = 'IEX_CLOUD_KEY'
 
 defaultConfig = {
-    kAlphaVantageConfigKey: 'NEEDS_TO_BE_REPLACED'
+    kAlphaVantageConfigKey: 'NEEDS_TO_BE_REPLACED',
+    kIEXCloudKey: 'NEEDS_TO_BE_REPLACED',
 }
 
 def readConfigFromDisk():

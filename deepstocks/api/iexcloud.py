@@ -1,5 +1,5 @@
 #
-# Handles dealing with the Alpha Vantaga API.
+# Handles dealing with the IEX Cloud API.
 #
 
 import datetime
@@ -8,10 +8,10 @@ import deepstocks.api.cache as cache
 import deepstocks.config as config
 import time
 
-_kSecondsBetweenRequests = 2
+_kSecondsBetweenRequests = 0.01
 _lastApiRequestTime = None
 
-def _avApiLimiter():
+def _iexApiLimiter():
     global _kSecondsBetweenRequests
     global _lastApiRequestTime
 
@@ -28,24 +28,19 @@ def _avApiLimiter():
     time.sleep(_kSecondsBetweenRequests - elapsedSeconds)
     _lastApiRequestTime = reqTime
 
-def avGetHistoricalStockPrice(symbol):
-    _avApiLimiter()
+
+def iexGetHistoricalStockPrice(symbol):
+    _iexApiLimiter()
 
     from deepstocks.api.unified import EquityPriceData
 
     params = {
-        'function': 'TIME_SERIES_DAILY',
-        'symbol': symbol.replace('.',''),
-        'outputsize': 'full',
-        'datatype': 'json',
-        'apikey': config.getConfigValue(config.kAlphaVantageConfigKey),
+        'token': config.getConfigValue(config.kIEXCloudKey)
     }
-    apiUrl = 'https://www.alphavantage.co/query'
+    apiUrl = 'https://cloud.iexapis.com/stable/stock/{0}/chart/max'.format(symbol)
 
     s = requests.Session()
-    headers = requests.utils.default_headers()
-    headers['User-Agent'] = 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0'
-    req = requests.Request('GET', apiUrl, params=params, headers=headers)
+    req = requests.Request('GET', apiUrl, params=params)
     prepReq = req.prepare()
 
     cacheData = cache.getCachedResponse(prepReq.url)
@@ -55,15 +50,14 @@ def avGetHistoricalStockPrice(symbol):
         data = cacheData
 
     retData = []
-    timeData = data['Time Series (Daily)']
-    for dateTime, priceDatum in timeData.items():
+    for datum in data:
         equityDatum = EquityPriceData(
-            dateTime=datetime.datetime.strptime(dateTime, '%Y-%m-%d'),
-            volume=int(priceDatum['5. volume']),
-            openPrice=float(priceDatum['1. open']),
-            closePrice=float(priceDatum['4. close']),
-            highPrice=float(priceDatum['2. high']),
-            lowPrice=float(priceDatum['3. low']))
+            dateTime=datetime.datetime.strptime(datum['date'], '%Y-%m-%d'),
+            volume=int(datum['volume']),
+            openPrice=float(datum['open']),
+            closePrice=float(datum['close']),
+            highPrice=float(datum['high']),
+            lowPrice=float(datum['low']))
         retData.append(equityDatum)
 
     cache.storeCachedResponse(prepReq.url, data)

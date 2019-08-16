@@ -10,6 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('database', nargs=1)
 parser.add_argument('--single', type=str) # SYMBOL
 parser.add_argument('--new', type=str) # COMPANY\tSYMBOL\tINDUSTRY
+parser.add_argument('--force', action='store_true')
 args = parser.parse_args()
 
 deepstocks.data.connectToDatabase(args.database[0])
@@ -43,14 +44,17 @@ else:
 # Skip if company already has data in it.
 for c in companies:
     print('STOCK DATA FOR {0} - {1}'.format(c.name, c.symbol))
-    if not c.equity:
+    if args.force or not c.equity:
         print ('...Retrieving stock prices.')
         stockPrices = deepstocks.data.getHistoricalStockPrice(c.symbol)
         for sDatum in stockPrices:
             newStock = deepstocks.data.Equity(
                 dateTime=sDatum.dateTime,
                 company=c,
-                price=sDatum.price,
-                volume=sDatum.volume)
+                volume=sDatum.volume,
+                openPrice=sDatum.openPrice,
+                closePrice=sDatum.closePrice,
+                highPrice=sDatum.highPrice,
+                lowPrice=sDatum.lowPrice)
             session.add(newStock)
         session.commit()

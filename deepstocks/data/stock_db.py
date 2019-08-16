@@ -12,5 +12,9 @@ class Equity(Base):
     dateTime = Column(DateTime, nullable=False)
     companyId = Column(Integer, ForeignKey('company.id'), nullable=False)
     company = relationship('Company', back_populates='equity')
-    price = Column(Float, nullable=False)
+
     volume = Column(Integer, nullable=False)
+    openPrice = Column(Float, nullable=False)
+    closePrice = Column(Float, nullable=False)
+    highPrice = Column(Float, nullable=False)
+    lowPrice = Column(Float, nullable=False)

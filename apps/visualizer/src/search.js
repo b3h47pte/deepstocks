@@ -13,7 +13,7 @@ Vue.component('stock-search', {
     },
     methods: {
         selectStock(symbol, name) {
-            this.$emit('selectStock', {symbol, name});
+            this.$store.commit('addStock', {symbol, name});
             this.$data.showDropdown = false;
             this.$data.selectedOption = 0;
             this.$refs.stockInput.value = "";

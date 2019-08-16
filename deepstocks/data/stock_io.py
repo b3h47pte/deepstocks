@@ -18,4 +18,16 @@ def getSymbolFromCompanyName(companyName):
 
 def getHistoricalStockPrice(symbol):
     from deepstocks.api.alpha_vantage import avGetHistoricalStockPrice
-    return avGetHistoricalStockPrice(symbol)
+    from deepstocks.api.iexcloud import iexGetHistoricalStockPrice
+
+    try:
+        print('......Retrieving from AlphaVantage')
+        return avGetHistoricalStockPrice(symbol)
+    except Exception as ex:
+        print('......Failed to retrieve from AlphaVantage: {0}'.format(ex))
+        try:
+            print('......Retrieving from IEX')
+            return iexGetHistoricalStockPrice(symbol)
+        except Exception as ex:
+            print('......Failed to retrieve from IEX: {0}'.format(ex))
+            raise Exception('Failed to retrieve historical stock price for {0}'.format(symbol))

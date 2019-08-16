@@ -1,22 +1,49 @@
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
-import { faAngleDown, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faSearch, faHeart, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 import './search.js';
 import './stockDisplayControl.js';
 
 import Vue from 'vue';
+import Vuex from 'vuex';
 var moment = require('moment');
+
+Vue.use(Vuex);
+
+const stockStore = new Vuex.Store({
+    state: {
+        stocks: []
+    },
+    mutations: {
+        addStock(state, obj) {
+            state.stocks.push(
+                {
+                    symbol: obj.symbol,
+                    name: obj.name,
+                    display: {
+                        showPrice: true,
+                        showCandlesticks: false,
+                        showVolume: true
+                    }
+                }
+            );
+        }
+    }
+});
 
 new Vue({
     el: '#app',
     data: {
-        selectedStocks: [],
         currentDate: moment()
     },
+    store: stockStore,
     computed: {
         dateTime: function () {
             return this.$data.currentDate.format('MMMM Do YYYY, h:mm:ss a');
+        },
+        selectedStocks: function() {
+            return this.$store.state.stocks;
         }
     },
     template: `
@@ -25,7 +52,7 @@ new Vue({
         <div class="column is-2 primary-overlay">
             <!-- Search -->
             <section class="section">
-                <stock-search v-on:selectStock="selectedStocks.push($event)"></stock-search>
+                <stock-search></stock-search>
             </section>
 
             <!-- Active Stocks -->
@@ -39,8 +66,8 @@ new Vue({
             </section>
             <section class="section secondary-overlay">
                 <stock-display-control
-                     v-for="(ele, index) of selectedStocks"
-                     v-bind:stock="ele"
+                     v-for="(_, index) of selectedStocks"
+                     v-bind:stockIndex="index"
                      v-bind:divbg="(index % 2 == 0) ? 'secondary-bg' : 'secondary-bg-alt'">
                 </stock-display-control>
             </section>
@@ -59,5 +86,5 @@ new Vue({
     }
 });
 
-library.add(faAngleDown, faSearch);
+library.add(faAngleDown, faSearch, faHeart, faPlus);
 dom.watch();
