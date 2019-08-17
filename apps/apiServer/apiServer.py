@@ -21,5 +21,11 @@ def search():
         limit=request.args.get('limit', 10))
     return jsonify(foundResults)
 
+@app.route('/eodInfo')
+def eodInfo():
+    from deepstocks.data import getHistoricalStockPrice
+    results = getHistoricalStockPrice(request.args.get('inp'), local=True, session=session)
+    return jsonify([s.__dict__ for s in results])
+
 if __name__ == '__main__':
     app.run()

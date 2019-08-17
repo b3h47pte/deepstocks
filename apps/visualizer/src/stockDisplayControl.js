@@ -1,6 +1,7 @@
 import Vue from 'vue';
 
 const request = require('request');
+const moment = require('moment');
 
 Vue.component('stock-display-control', {
     props: ['stockIndex', 'divbg'],
@@ -36,7 +37,7 @@ Vue.component('stock-display-control', {
             if (this.stock.priceInfo.length == 0) {
                 return 'N/A';
             }
-            return this.stock.priceInfo[-1].format('MMMM Do YYYY, h:mm:ss a');
+            return moment(this.stock.priceInfo.slice(-1)[0].dateTime).format('MMMM Do YYYY, h:mm:ss a');
         }
     },
     methods: {

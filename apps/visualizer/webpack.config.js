@@ -17,7 +17,14 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['@babel/preset-env']
+                    presets: [
+                        ['@babel/preset-env',
+                        {
+                            'targets': {
+                                'node': '11'
+                            }
+                        }]
+                    ]
                 }
             },
             {

@@ -1,9 +1,10 @@
+import {getHistoricalStockEodInfo} from './api.js';
 import './search.js';
 import './stockDisplayControl.js';
 
 import Vue from 'vue';
-import Vuex from 'vuex';
-var moment = require('moment');
+import Vuex, { mapActions } from 'vuex';
+const moment = require('moment');
 
 Vue.use(Vuex);
 
@@ -20,6 +21,20 @@ const stockStore = new Vuex.Store({
                     priceInfo: []
                 }
             );
+        },
+        setPriceInfo(state, {stock, priceInfo}) {
+            stock.priceInfo = priceInfo;
+        }
+    },
+    actions: {
+        updateAllStocks({dispatch, state}) {
+            for (let stock of state.stocks) {
+                dispatch('updateStock', stock);
+            }
+        },
+        async updateStock({commit, state}, stock) {
+            let prices = await getHistoricalStockEodInfo(stock.symbol);
+            commit('setPriceInfo', {stock, priceInfo: prices});
         }
     }
 });
@@ -38,6 +53,11 @@ new Vue({
             return this.$store.state.stocks;
         }
     },
+    methods: {
+        ...mapActions([
+            'updateAllStocks'
+        ]),
+    },
     template: `
     <div class="columns main">
         <!-- Navigation -->
@@ -51,7 +71,7 @@ new Vue({
             <section class="section">
                 <div class="content">
                     <p>
-                        <span class="subtitle">Watched Stocks</span>
+                        <span class="subtitle">Watchlist</span>
                         <span class="secondary-text">{{dateTime}}</span>
                     </p>
                 </div>
@@ -74,6 +94,7 @@ new Vue({
     created: function() {
         setInterval(() => {
             this.$data.currentDate = moment();
+            this.updateAllStocks();
         }, 1000);
     }
 });
