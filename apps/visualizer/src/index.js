@@ -1,7 +1,3 @@
-import { library, dom } from '@fortawesome/fontawesome-svg-core';
-import { faAngleDown, faSearch, faHeart, faPlus } from '@fortawesome/free-solid-svg-icons';
-
-
 import './search.js';
 import './stockDisplayControl.js';
 
@@ -21,11 +17,7 @@ const stockStore = new Vuex.Store({
                 {
                     symbol: obj.symbol,
                     name: obj.name,
-                    display: {
-                        showPrice: true,
-                        showCandlesticks: false,
-                        showVolume: true
-                    }
+                    priceInfo: []
                 }
             );
         }
@@ -55,11 +47,11 @@ new Vue({
                 <stock-search></stock-search>
             </section>
 
-            <!-- Active Stocks -->
+            <!-- Watchlist Stocks -->
             <section class="section">
                 <div class="content">
                     <p>
-                        <span class="subtitle">Active Stocks</span>
+                        <span class="subtitle">Watched Stocks</span>
                         <span class="secondary-text">{{dateTime}}</span>
                     </p>
                 </div>
@@ -85,6 +77,3 @@ new Vue({
         }, 1000);
     }
 });
-
-library.add(faAngleDown, faSearch, faHeart, faPlus);
-dom.watch();
