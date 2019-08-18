@@ -1,6 +1,7 @@
 import {getHistoricalStockEodInfo} from './api.js';
 import './search.js';
 import './stockDisplayControl.js';
+import './stockPlot.js';
 
 import Vue from 'vue';
 import Vuex, { mapActions } from 'vuex';
@@ -10,10 +11,14 @@ Vue.use(Vuex);
 
 const stockStore = new Vuex.Store({
     state: {
-        stocks: []
+        stocks: [],
+        minDate: null,
+        maxDate: null,
+        minPrice: null,
+        maxPrice: null
     },
     mutations: {
-        addStock(state, obj) {
+        addStockFinal(state, obj) {
             state.stocks.push(
                 {
                     symbol: obj.symbol,
@@ -22,8 +27,35 @@ const stockStore = new Vuex.Store({
                 }
             );
         },
-        setPriceInfo(state, {stock, priceInfo}) {
-            stock.priceInfo = priceInfo;
+        setPriceInfo(state, {stockIndex, priceInfo}) {
+            state.stocks[stockIndex].priceInfo = priceInfo;
+            for (let p of priceInfo) {
+                let dt = moment(p.dateTime);
+                if (!state.minDate) {
+                    state.minDate = dt;
+                } else {
+                    state.minDate = moment.min(state.minDate, dt);
+                }
+
+                if (!state.maxDate) {
+                    state.maxDate = dt;
+                } else {
+                    state.maxDate = moment.max(state.maxDate, dt);
+                }
+
+                if (!state.minPrice) {
+                    state.minPrice = p.closePrice;
+                } else {
+                    state.minPrice = Math.min(state.minPrice, p.closePrice);
+                }
+
+                if (!state.maxPrice) {
+                    state.maxPrice = p.closePrice;
+                } else {
+                    state.maxPrice = Math.max(state.maxPrice, p.closePrice);
+                }
+
+            }
         }
     },
     actions: {
@@ -32,9 +64,13 @@ const stockStore = new Vuex.Store({
                 dispatch('updateStock', stock);
             }
         },
-        async updateStock({commit, state}, stock) {
+        async updateStock({commit, state}, {stock, stockIndex}) {
             let prices = await getHistoricalStockEodInfo(stock.symbol);
-            commit('setPriceInfo', {stock, priceInfo: prices});
+            commit('setPriceInfo', {stockIndex, priceInfo: prices});
+        },
+        addStock({commit, dispatch, state}, stock) {
+            commit('addStockFinal', stock);
+            dispatch('updateStock', {stock, stockIndex: state.stocks.length - 1});
         }
     }
 });
@@ -87,14 +123,13 @@ new Vue({
 
         <!-- Primary display -->
         <div class="column is-10 primary-overlay">
-            <section class="section">
-            </section>
+            <stock-plot></stock-plot>
         </div>
     </div>`,
     created: function() {
         setInterval(() => {
             this.$data.currentDate = moment();
-            this.updateAllStocks();
         }, 1000);
     }
+
 });
