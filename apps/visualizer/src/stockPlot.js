@@ -28,32 +28,21 @@ const uniqueColors = [
 ];
 
 Vue.component('stock-plot', {
-    template: `
-        <section class="section">
-            <div id="rangeControl">
-
-            </div>
-            <div id="fullPlot">
-                <div id="plot">
-                </div>
-            </div>
-        </section>
-    `,
+    props: ['plotHeight', 'plotWidth'],
+    data: function() {
+        return {
+            plotMargin : {
+                top: 5,
+                bottom: 5,
+                left: 10,
+                right: 10 
+            }
+        }
+    },
     methods: {
         recreateAllGraphs: function() {
             let fullPlotArea = d3.select('#fullPlot');
-            let plotArea = fullPlotArea.select('#plot');
-            let plotSvg = plotArea.select('svg');
-            if (plotSvg.empty()) {
-                plotSvg = plotArea.append('svg')
-                    .attr('width', '100%')
-                    .attr('height', '100%')
-                    .attr('viewBox', '0 0 1000 1000')
-                    .attr('preserveAspectRatio', 'none')
-                    .style('display', 'block')
-                    .style('margin', 'auto');
-            }
-
+            let plotSvg = fullPlotArea.select('svg');
             let timeParser = d3.timeParse('%m %d %Y');
             function parseTimeForD3(d) {
                 // Parse using the more flexible moments library.
@@ -93,6 +82,14 @@ Vue.component('stock-plot', {
                 .attr('d', stockPriceLinePlot);
         }
     },
+    computed: {
+        clientPlotHeight: function() {
+            return this.plotHeight - this.$data.plotMargin.top - this.$data.plotMargin.bottom;
+        },
+        clientPlotWidth: function() {
+            return this.plotWidth - this.$data.plotMargin.left - this.$data.plotMargin.right;
+        }
+    },
     mounted: function() {
         // This watches when the total list of stocks changes (to know which stocks are
         // are not relevant.
@@ -113,5 +110,20 @@ Vue.component('stock-plot', {
             }
             this.recreateAllGraphs();
         });
-    }
+    },
+    template: `
+        <section>
+            <div id="rangeControl">
+
+            </div>
+            <div id="fullPlot">
+                <svg v-bind:width="clientPlotWidth" 
+                     v-bind:height="clientPlotHeight"
+                     viewBox="0 0 1000 1000"
+                     preserveAspectRatio="none"
+                     v-bind:transform="'translate(' + plotMargin.left + ',' + plotMargin.top + ')'">
+                </svg>
+            </div>
+        </section>
+    `
 });

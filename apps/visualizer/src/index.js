@@ -78,7 +78,9 @@ const stockStore = new Vuex.Store({
 new Vue({
     el: '#app',
     data: {
-        currentDate: moment()
+        currentDate: moment(),
+        plotHeight: 100,
+        plotWidth: 100
     },
     store: stockStore,
     computed: {
@@ -93,43 +95,61 @@ new Vue({
         ...mapActions([
             'updateAllStocks'
         ]),
+        recomputePlotHeight: function() {
+            let footer = document.getElementsByClassName('footer').item(0);
+            let footerStyle = window.getComputedStyle(footer);
+            let footerHeight = footer.offsetHeight + parseInt(footerStyle.getPropertyValue('margin-top')) + parseInt(footerStyle.getPropertyValue('margin-bottom'));
+
+            this.$data.plotHeight = window.innerHeight - footerHeight;
+            this.$data.plotWidth = document.getElementById('primaryDisplay').clientWidth;
+        }
     },
     template: `
     <div class="columns main">
         <!-- Navigation -->
-        <div class="column is-2 primary-overlay">
-            <!-- Search -->
-            <section class="section">
-                <stock-search></stock-search>
-            </section>
+        <div class="column is-2">
+            <div class="primary-overlay">
+                <!-- Search -->
+                <section class="section">
+                    <stock-search></stock-search>
+                </section>
 
-            <!-- Watchlist Stocks -->
-            <section class="section">
-                <div class="content">
-                    <p>
-                        <span class="subtitle">Watchlist</span>
-                        <span class="secondary-text">{{dateTime}}</span>
-                    </p>
-                </div>
-            </section>
-            <section class="section secondary-overlay">
-                <stock-display-control
-                     v-for="(_, index) of selectedStocks"
-                     v-bind:stockIndex="index"
-                     v-bind:divbg="(index % 2 == 0) ? 'secondary-bg' : 'secondary-bg-alt'">
-                </stock-display-control>
-            </section>
+                <!-- Watchlist Stocks -->
+                <section class="section">
+                    <div class="content">
+                        <p>
+                            <span class="subtitle">Watchlist</span>
+                            <span class="secondary-text">{{dateTime}}</span>
+                        </p>
+                    </div>
+                </section>
+                <section class="section secondary-overlay">
+                    <stock-display-control
+                         v-for="(_, index) of selectedStocks"
+                         v-bind:stockIndex="index"
+                         v-bind:divbg="(index % 2 == 0) ? 'secondary-bg' : 'secondary-bg-alt'">
+                    </stock-display-control>
+                </section>
+            </div>
         </div>
 
         <!-- Primary display -->
-        <div class="column is-10 primary-overlay">
-            <stock-plot></stock-plot>
+        <div class="column is-10">
+            <div class="primary-overlay" id="primaryDisplay">
+                <stock-plot
+                    v-bind:plot-height="plotHeight"
+                    v-bind:plot-width="plotWidth">
+                </stock-plot>
+            </div>
         </div>
     </div>`,
     created: function() {
         setInterval(() => {
             this.$data.currentDate = moment();
         }, 1000);
+    },
+    mounted: function() {
+        window.addEventListener('resize', this.recomputePlotHeight);
+        this.recomputePlotHeight();
     }
-
 });

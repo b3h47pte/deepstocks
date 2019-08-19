@@ -33,6 +33,8 @@ $button-color: #000000;
 $button-background-color: #BB86FC;
 $button-border-color: $button-background-color;
 
+$column-gap: 5px;
+
 @import "../node_modules/bulma/bulma.sass";
 
 html, body {
@@ -57,16 +59,6 @@ body .main {
 body > footer {
     padding: 0px !important;
     margin: 5px !important;
-}
-
-.columns {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.column {
-    padding: 0;
-    margin: 0px 5px 0px 5px;
 }
 
 .section {
