@@ -34,9 +34,10 @@ Vue.component('stock-plot', {
             plotMargin : {
                 top: 5,
                 bottom: 5,
-                left: 10,
-                right: 10 
-            }
+                left: 5,
+                right: 5 
+            },
+            xAxisY: 0
         }
     },
     methods: {
@@ -53,24 +54,35 @@ Vue.component('stock-plot', {
                 return timeParser(reformattedString);
             }
 
-            let xAxis = d3.scaleTime()
-                .domain([this.$store.state.minDate, this.$store.state.maxDate])
-                .range([0, 1000]);
-            let yAxis = d3.scaleLinear()
-                .domain([0.0, this.$store.state.maxPrice])
-                .range([1000, 0]);
+            // Go from just below min price to just above max price
+            let useMinPrice = this.$store.state.minPrice;
+            let useMaxPrice = this.$store.state.maxPrice;
+            const delta = useMaxPrice - useMinPrice;
+            useMinPrice -= delta * 0.01;
+            useMaxPrice += delta * 0.01;
 
+            let xAxisScale = d3.scaleTime()
+                .range([0, 1000])
+                .domain([this.$store.state.minDate, this.$store.state.maxDate]);
+            let yAxisScale = d3.scaleLinear()
+                .range([980, 20]) // Don't use full range to leave some space at the bottom for the x-axis.
+                .domain([useMinPrice, useMaxPrice])
+                .nice();
+
+            // Draw closing price plot.
             let stockPriceLinePlot = d3.line()
                 .x(function(d) {
-                    return xAxis(parseTimeForD3(d)); 
+                    return xAxisScale(parseTimeForD3(d)); 
                 })
-                .y(function(d) { return yAxis(d.closePrice); });
+                .y(function(d) { return yAxisScale(d.closePrice); });
 
             let lineGraphs = plotSvg
-                .selectAll('path') 
+                .selectAll('path.CLASS_FOR_ID_PLOT') 
                 .data(this.$store.state.stocks);
             lineGraphs
-                .enter().append('path');
+                .enter()
+                .append('path')
+                .attr('class', 'CLASS_FOR_ID_PLOT');
             lineGraphs.exit().remove();
             lineGraphs
                 .datum(function(d) { return d.priceInfo; })
@@ -80,6 +92,25 @@ Vue.component('stock-plot', {
                 })
                 .attr('stroke-width', 1.5)
                 .attr('d', stockPriceLinePlot);
+
+            // Draw axes.
+            let xAxis = d3.axisBottom(xAxisScale);
+            let yAxis = d3.axisLeft(yAxisScale);
+
+            plotSvg
+                .select('#xAxis')
+                .call(xAxis);
+            plotSvg
+                .select('#yAxis')
+                .call(yAxis);
+
+            // Find first tick of the Y-axis to figure out where the min-point is so we know where to
+            // stick the x-axis.
+            const zeroTick = plotSvg.select('#yAxis g.tick');
+            const zeroTickXform = zeroTick.attr('transform');
+            const translationRegex = /translate\((.*),(.*)\)/g;
+            const parsedXform = translationRegex.exec(zeroTickXform);
+            this.$data.xAxisY = parseFloat(parsedXform[2]);
         }
     },
     computed: {
@@ -88,7 +119,7 @@ Vue.component('stock-plot', {
         },
         clientPlotWidth: function() {
             return this.plotWidth - this.$data.plotMargin.left - this.$data.plotMargin.right;
-        }
+        },
     },
     mounted: function() {
         // This watches when the total list of stocks changes (to know which stocks are
@@ -120,8 +151,14 @@ Vue.component('stock-plot', {
                 <svg v-bind:width="clientPlotWidth" 
                      v-bind:height="clientPlotHeight"
                      viewBox="0 0 1000 1000"
-                     preserveAspectRatio="none"
+                     preserveAspectRatio="xMidYMid meet"
                      v-bind:transform="'translate(' + plotMargin.left + ',' + plotMargin.top + ')'">
+                    <g id="xAxis" 
+                       v-bind:transform="'translate(0,' + xAxisY + ')'">
+                    </g>
+                    <g id="yAxis"
+                       v-bind:transform="'translate(0,0)'">
+                    </g>
                 </svg>
             </div>
         </section>
