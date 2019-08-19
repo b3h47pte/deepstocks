@@ -37,7 +37,9 @@ Vue.component('stock-plot', {
                 left: 5,
                 right: 5 
             },
-            xAxisY: 0
+            xAxisY: 0,
+            selectedTimeRange: 0,
+            validTimeRanges: ['1w', '1m', '3m', '1y', '5y', 'max']
         }
     },
     methods: {
@@ -54,6 +56,10 @@ Vue.component('stock-plot', {
                 return timeParser(reformattedString);
             }
 
+            if (this.$store.state.stocks.length == 0) {
+                return;
+            }
+
             // Go from just below min price to just above max price
             let useMinPrice = this.$store.state.minPrice;
             let useMaxPrice = this.$store.state.maxPrice;
@@ -61,11 +67,43 @@ Vue.component('stock-plot', {
             useMinPrice -= delta * 0.01;
             useMaxPrice += delta * 0.01;
 
+            let useMaxDate = this.$store.state.maxDate;
+            let useMinDate = null;
+            if (useMaxDate) {
+                switch (this.$data.selectedTimeRange) {
+                    case 0:
+                        useMinDate = useMaxDate.clone().subtract(1, 'w');
+                        break;
+                    case 1:
+                        useMinDate = useMaxDate.clone().subtract(1, 'M');
+                        break;
+                    case 2:
+                        useMinDate = useMaxDate.clone().subtract(3, 'M');
+                        break;
+                    case 3:
+                        useMinDate = useMaxDate.clone().subtract(1, 'y');
+                        break;
+                    case 4:
+                        useMinDate = useMaxDate.clone().subtract(5, 'y');
+                        break;
+                    case 5:
+                        useMinDate = this.$store.state.minDate;
+                        break;
+                }
+            } else {
+                useMinDate = this.$store.state.minDate;
+            }
+
+            if (!useMinDate || !useMaxDate) {
+                return;
+            }
+
             let xAxisScale = d3.scaleTime()
                 .range([0, 1000])
-                .domain([this.$store.state.minDate, this.$store.state.maxDate]);
+                .domain([useMinDate.startOf('d'), useMaxDate.endOf('d')])
+                .nice();
             let yAxisScale = d3.scaleLinear()
-                .range([980, 20]) // Don't use full range to leave some space at the bottom for the x-axis.
+                .range([980, 20])
                 .domain([useMinPrice, useMaxPrice])
                 .nice();
 
@@ -82,16 +120,22 @@ Vue.component('stock-plot', {
             lineGraphs
                 .enter()
                 .append('path')
-                .attr('class', 'CLASS_FOR_ID_PLOT');
+                    .merge(lineGraphs)
+                    .attr('class', 'CLASS_FOR_ID_PLOT')
+                    .datum(function(d) {
+                        // Filter out elements outside date range.
+                        let result = d.priceInfo.filter((obj) => {
+                            return (moment(obj.dateTime) >= useMinDate && moment(obj.dateTime) <= useMaxDate);
+                        });
+                        return result;
+                    })
+                    .attr('fill', 'none')
+                    .attr('stroke', function(d, i) {
+                        return uniqueColors[i % uniqueColors.length];
+                    })
+                    .attr('stroke-width', 1.5)
+                    .attr('d', stockPriceLinePlot);
             lineGraphs.exit().remove();
-            lineGraphs
-                .datum(function(d) { return d.priceInfo; })
-                .attr('fill', 'none')
-                .attr('stroke', function(d, i) {
-                    return uniqueColors[i % uniqueColors.length];
-                })
-                .attr('stroke-width', 1.5)
-                .attr('d', stockPriceLinePlot);
 
             // Draw axes.
             let xAxis = d3.axisBottom(xAxisScale);
@@ -111,6 +155,10 @@ Vue.component('stock-plot', {
             const translationRegex = /translate\((.*),(.*)\)/g;
             const parsedXform = translationRegex.exec(zeroTickXform);
             this.$data.xAxisY = parseFloat(parsedXform[2]);
+        },
+        setNewTimeRange: function(timeRange) {
+            this.$data.selectedTimeRange = timeRange;
+            this.recreateAllGraphs();
         }
     },
     computed: {
@@ -144,8 +192,12 @@ Vue.component('stock-plot', {
     },
     template: `
         <section>
-            <div id="rangeControl">
-
+            <div id="rangeControl" align="right">
+                <button v-for="(ele, index) of validTimeRanges"
+                        :class="['button', index == selectedTimeRange ? 'selected-button' : '']"
+                        v-on:click="setNewTimeRange(index)">
+                    {{ele}}
+                </button>
             </div>
             <div id="fullPlot">
                 <svg v-bind:width="clientPlotWidth" 

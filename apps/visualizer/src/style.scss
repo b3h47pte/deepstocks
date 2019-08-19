@@ -6,6 +6,7 @@ $fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
 
 $text-color: rgba(255, 255, 255, 0.87);
 $secondary-text-color: rgba(255, 255, 255, 0.60);
+$secondary-color: #03DAC6;
 
 $input-color: $text-color;
 $input-background-color: rgba(255, 255, 255, 0.11);
@@ -32,6 +33,7 @@ $card-header-color: $text-color;
 $button-color: #000000;
 $button-background-color: #BB86FC;
 $button-border-color: $button-background-color;
+$button-border-width: 0;
 
 $column-gap: 5px;
 
@@ -135,4 +137,8 @@ input {
 hr {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.selected-button {
+    background-color: $secondary-color !important;
 }
